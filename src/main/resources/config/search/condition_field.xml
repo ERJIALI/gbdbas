@@ -17,6 +17,10 @@
 				<!-- 阿根廷进口搜索条件字段-->
 				<entry key="argentina_import_conditionzhname" value="国家：,海关编码：,CIF价格：,重量：,产品描述：,日期：,FOB价格：,数量：,采购商：,原产国："></entry>
 				<entry key="argentina_import_conditionfieldid" value="country,hscode,cifstartprice/cifendprice,startweight/endweight,goodsdesc,startdate/enddate,fobstartprice/fobendprice,startquantity/endquantity,importer,origin_country"></entry>
+
+				<entry key="argentina_import_conditionenname" value="country：,Custom number：,CIF price：,weight：,Product Description：,Date：,FOB price：,Amount：,Buyer：,Origin country："></entry>
+
+				
 				<!-- 需要添加翻译的字段id -->
 				<entry key="argentina_import_trans" value="goodsdesc,importer,origin_country"></entry>
 				<!-- 需要添加文本框描述的字段id -->
@@ -33,6 +37,7 @@
 				<!-- 阿根廷出口搜索条件字段-->
 				<entry key="argentina_export_conditionzhname" value="国家：,海关编码：,重量：,CIF价格：,产品描述：,日期：,数量：,FOB价格：,供应商：,原产国："></entry>
 				<entry key="argentina_export_conditionfieldid" value="country,hscode,startweight/endweight,cifstartprice/cifendprice,goodsdesc,startdate/enddate,startquantity/endquantity,fobstartprice/fobendprice,exporter,origin_country"></entry>
+				<entry key="argentina_export_conditionenname" value="country：,Custom number：,CIF price：,weight：,Product Description：,Date：,FOB price：,Amount：,Buyer：,Origin country："></entry>
 				<!-- 需要添加翻译的字段id -->
 				<entry key="argentina_export_trans" value="goodsdesc,exporter,origin_country"></entry>
 				<!-- 需要添加文本框描述的字段id -->
@@ -49,6 +54,7 @@
 				<!-- 乌拉圭进口搜索条件字段-->
 				<entry key="uruguay_import_conditionzhname" value="国家：,海关编码：,重量：,CIF价格：,产品描述：,采购商：,日期：,数量：,原产国："></entry>
 				<entry key="uruguay_import_conditionfieldid" value="country,hscode,startweight/endweight,cifstartprice/cifendprice,goodsdesc,importer,startdate/enddate,startquantity/endquantity,origin_country"></entry>
+				<entry key="uruguay_import_conditionenname" value="country：,Custom number：,weight：,CIF price：,Product Description：,Buyer：,Date：,Amount：,Origin country："></entry>
 				<!-- 需要添加翻译的字段id -->
 				<entry key="uruguay_import_trans" value="goodsdesc,importer"></entry>
 				<!-- 需要添加文本框描述的字段id -->
@@ -64,6 +70,7 @@
 				<!-- 乌拉圭出口搜索条件字段-->
 				<entry key="uruguay_export_conditionzhname" value="国家：,海关编码：,重量：,FOB价格：,产品描述：,出口商：,日期：,数量：,目的国："></entry>
 				<entry key="uruguay_export_conditionfieldid" value="country,hscode,startweight/endweight,fobstartprice/fobendprice,goodsdesc,exporter,startdate/enddate,startquantity/endquantity,dest_country"></entry>
+				<entry key="uruguay_export_conditionenname" value="country：,Custom number：,weight：,FOB price：,Product Description：,Exporter：,Date：,Amount：,Destination country："></entry>
 				<!-- 需要添加翻译的字段id -->
 				<entry key="uruguay_export_trans" value="goodsdesc,exporter"></entry>
 				<!-- 需要添加文本框描述的字段id -->
@@ -80,6 +87,7 @@
 				<!-- 巴拉圭进口搜索条件字段-->
 				<entry key="paraguay_import_conditionzhname" value="国家：,海关编码：,重量：,CIF价格：,产品描述：,采购商：,日期：,数量：,原产国：,出口商："></entry>
 				<entry key="paraguay_import_conditionfieldid" value="country,hscode,startweight/endweight,cifstartprice/cifendprice,goodsdesc,importer,startdate/enddate,startquantity/endquantity,origin_country,exporter"></entry>
+				<entry key="paraguay_import_conditionenname" value="country：,Custom number：,weight：,CIF price：,Product Description：,Buyer：,Date：,Amount：,Origin country：,Exporter:"></entry>
 				<!-- 需要添加翻译的字段id -->
 				<entry key="paraguay_import_trans" value="goodsdesc,exporter,importer"></entry>
 				<!-- 需要添加文本框描述的字段id -->
@@ -95,6 +103,7 @@
 				<!-- 巴拉圭出口搜索条件字段-->
 				<entry key="paraguay_export_conditionzhname" value="国家：,海关编码：,重量：,CIF价格：,产品描述：,采购商：,日期：,数量：,目的国：,出口商：,"></entry>
 				<entry key="paraguay_export_conditionfieldid" value="country,hscode,startweight/endweight,cifstartprice/cifendprice,goodsdesc,importer,startdate/enddate,startquantity/endquantity,dest_country,exporter"></entry>
+				<entry key="paraguay_export_conditionenname" value="country：,Custom number：,weight：,CIF price：,Product Description：,Buyer：,Date：,Amount：,Destination country：,Exporter："></entry>
 				<!-- 需要添加翻译的字段id -->
 				<entry key="paraguay_export_trans" value="goodsdesc,exporter,importer"></entry>
 				<!-- 需要添加文本框描述的字段id -->
@@ -111,6 +120,7 @@
 				<!-- 秘鲁进口搜索条件字段-->
 				<entry key="peru_import_conditionzhname" value="国家：,海关编码：,重量：,CIF价格：,产品描述：,采购商：,日期：,数量：,起运港：,出口商：,原产国："></entry>
 				<entry key="peru_import_conditionfieldid" value="country,hscode,startweight/endweight,cifstartprice/cifendprice,goodsdesc,importer,startdate/enddate,startquantity/endquantity,start_port,exporter,origin_country"></entry>
+				<entry key="peru_import_conditionenname" value="country：,Custom number：,weight：,CIF price：,Product Description：,Buyer：,Date：,Amount：,Loadig port:,Exporter:,Origin country："></entry>
 				<!-- 需要添加翻译的字段id -->
 				<entry key="peru_import_trans" value="goodsdesc,exporter,importer,start_port"></entry>
 				<!-- 需要添加文本框描述的字段id -->
@@ -126,6 +136,7 @@
 				<!-- 秘鲁出口搜索条件字段-->
 				<entry key="peru_export_conditionzhname" value="国家：,海关编码：,重量：,FOB价格：,产品描述：,出口商：,日期：,数量：,抵达港：,目的国："></entry>
 				<entry key="peru_export_conditionfieldid" value="country,hscode,startweight/endweight,fobstartprice/fobendprice,goodsdesc,exporter,startdate/enddate,startquantity/endquantity,end_port,dest_country"></entry>
+				<entry key="peru_export_conditionenname" value="country：,Custom number：,weight：,FOB price：,Product Description：,Exporter：,Date：,Amount：,Pire of arriving:,Destination country："></entry>
 				<!-- 需要添加翻译的字段id -->
 				<entry key="peru_export_trans" value="goodsdesc,exporter,end_port"></entry>
 				<!-- 需要添加文本框描述的字段id -->
@@ -142,6 +153,7 @@
 				<!-- 厄瓜多尔进口搜索条件字段-->
 				<entry key="ecuador_import_conditionzhname" value="国家：,海关编码：,CIF价格：,数量：,产品描述：,起运港：,日期：,原产国：,进口商：,出口商："></entry>
 				<entry key="ecuador_import_conditionfieldid" value="country,hscode,cifstartprice/cifendprice,startquantity/endquantity,goodsdesc,start_port,startdate/enddate,origin_country,importer,exporter"></entry>
+				<entry key="ecuador_import_conditionenname" value="country：,Custom number：,CIF price：,Amount：,Product Description：,Loadig port:,Date：,Origin country：,Importer:,Exporter:"></entry>
 				<!-- 需要添加翻译的字段id -->
 				<entry key="ecuador_import_trans" value="goodsdesc,exporter,importer,start_port"></entry>
 				<!-- 需要添加文本框描述的字段id -->
@@ -157,6 +169,7 @@
 				<!-- 厄瓜多尔出口搜索条件字段-->
 				<entry key="ecuador_export_conditionzhname" value="国家：,海关编码：,FOB价格：,数量：,产品描述：,抵达港：,日期：,目的国：,进口商：,出口商："></entry>
 				<entry key="ecuador_export_conditionfieldid" value="country,hscode,fobstartprice/fobendprice,startquantity/endquantity,goodsdesc,end_port,startdate/enddate,dest_country,importer,exporter"></entry>
+				<entry key="ecuador_export_conditionenname" value="country：,Custom number：,FOB price：,Amount：,Product Description：,Pire of arriving:,Date：,Destination country：,Importer:,Exporter:"></entry>
 				<!-- 需要添加翻译的字段id -->
 				<entry key="ecuador_export_trans" value="goodsdesc,exporter,importer,end_port"></entry>
 				<!-- 需要添加文本框描述的字段id -->
@@ -172,6 +185,7 @@
 				<!-- 智利进口搜索条件字段-->
 				<entry key="chile_import_conditionzhname" value="国家：,海关编码：,CIF价格：,数量：,产品描述：,抵达港：,日期：,重量：,进口商：,起运港：,原产国："></entry>
 				<entry key="chile_import_conditionfieldid" value="country,hscode,cifstartprice/cifendprice,startquantity/endquantity,goodsdesc,end_port,startdate/enddate,startweight/endweight,importer,start_port,origin_country"></entry>
+				<entry key="chile_import_conditionenname" value="country：,Custom number：,CIF price：,Amount：,Product Description：,Pire of arriving:,Date：,weight:,Importer:,Loadig port:,Origin country："></entry>
 				<!-- 需要添加翻译的字段id -->
 				<entry key="chile_import_trans" value="goodsdesc,importer,end_port,start_port"></entry>
 				<!-- 需要添加文本框描述的字段id -->
@@ -187,6 +201,7 @@
 				<!-- 智利出口搜索条件字段-->
 				<entry key="chile_export_conditionzhname" value="国家：,海关编码：,CIF价格：,数量：,产品描述：,抵达港：,日期：,重量：,出口商：,起运港：,目的国："></entry>
 				<entry key="chile_export_conditionfieldid" value="country,hscode,cifstartprice/cifendprice,startquantity/endquantity,goodsdesc,end_port,startdate/enddate,startweight/endweight,exporter,start_port,dest_country"></entry>
+				<entry key="chile_export_conditionenname" value="country：,Custom number：,CIF price：,Amount：,Product Description：,Pire of arriving:,Date：,Weight:,Exporter:,Loadig port:,Destination country："></entry>
 				<!-- 需要添加翻译的字段id -->
 				<entry key="chile_export_trans" value="goodsdesc,exporter,end_port,start_port"></entry>
 				<!-- 需要添加文本框描述的字段id -->
@@ -203,6 +218,7 @@
 				<!-- 哥伦比亚进口搜索条件字段-->
 				<entry key="colom_import_conditionzhname" value="国家：,海关编码：,CIF价格：,数量：,产品描述：,进口商：,出口商：,日期：,净重：,原产国："></entry>
 				<entry key="colom_import_conditionfieldid" value="country,hscode,cifstartprice/cifendprice,startquantity/endquantity,goodsdesc,importer,exporter,startdate/enddate,startnetweight/endnetweight,origin_country"></entry>
+				<entry key="colom_import_conditionenname" value="country：,Custom number：,CIF price：,Amount：,Product Description：,Importer:,Exporter:,Date：,Net weight:,Origin country："></entry>
 				<!-- 需要添加翻译的字段id -->
 				<entry key="colom_import_trans" value="goodsdesc,exporter"></entry>
 				<!-- 需要添加文本框描述的字段id -->
@@ -218,6 +234,7 @@
 				<!-- 哥伦比亚出口搜索条件字段-->
 				<entry key="colom_export_conditionzhname" value="国家：,海关编码：,FOB价格：,数量：,产品描述：,出口商：,日期：,净重：,目的国：,进口商："></entry>
 				<entry key="colom_export_conditionfieldid" value="country,hscode,fobstartprice/fobendprice,startquantity/endquantity,goodsdesc,exporter,startdate/enddate,startnetweight/endnetweight,dest_country,importer"></entry>
+				<entry key="colom_export_conditionenname" value="country：,Custom number：,FOB price：,Amount：,Product Description：,Exporter:,Date：,Net weight:,Destination country：,Importer:"></entry>
 				<!-- 需要添加翻译的字段id -->
 				<entry key="colom_export_trans" value="goodsdesc,exporter,importer"></entry>
 				<!-- 需要添加文本框描述的字段id -->
@@ -234,6 +251,7 @@
 				<!-- 巴西进口搜索条件字段-->
 				<entry key="brazil_import_conditionzhname" value="国家：,海关编码：,FOB价格：,数量：,产品描述：,进口商：,日期：,净重：,原产国："></entry>
 				<entry key="brazil_import_conditionfieldid" value="country,hscode,fobstartprice/fobendprice,startquantity/endquantity,goodsdesc,importer,startdate/enddate,startnetweight/endnetweight,origin_country"></entry>
+				<entry key="brazil_import_conditionenname" value="country：,Custom number：,CIF price：,Amount：,Product Description：,Importer:,Exporter:,Date：,Net weight:,Origin country："></entry>
 				<!-- 需要添加翻译的字段id -->
 				<entry key="brazil_import_trans" value="goodsdesc,importer"></entry>
 				<!-- 需要添加文本框描述的字段id -->
@@ -250,6 +268,7 @@
 				<!-- 委内瑞拉进口搜索条件字段-->
 				<entry key="vnrl_import_conditionzhname" value="国家：,海关编码：,FOB价格：,重量：,产品描述：,进口商：,日期：,原产国：,起运港："></entry>
 				<entry key="vnrl_import_conditionfieldid" value="country,hscode,fobstartprice/fobendprice,startweight/endweight,goodsdesc,importer,startdate/enddate,origin_country,start_port"></entry>
+				<entry key="vnrl_import_import_conditionenname" value="country：,Custom number：,FOB price：,weight:,Product Description：,Importer:,Date:,Origin country：,Loadig port:"></entry>
 				<!-- 需要添加翻译的字段id -->
 				<entry key="vnrl_import_trans" value="goodsdesc,importer,start_port"></entry>
 				<!-- 需要添加文本框描述的字段id -->
@@ -266,6 +285,7 @@
 				<!-- 委内瑞拉出口搜索条件字段-->
 				<entry key="vnrl_export_conditionzhname" value="国家：,海关编码：,FOB价格：,重量：,产品描述：,出口商：,日期：,目的国：,抵达港："></entry>
 				<entry key="vnrl_export_conditionfieldid" value="country,hscode,fobstartprice/fobendprice,startweight/endweight,goodsdesc,exporter,startdate/enddate,dest_country,end_port"></entry>
+				<entry key="vnrl_export_conditionenname" value="country：,Custom number：,FOB price：,Weight:,Product Description：,Exporter:,Date：,Destination country：,Pire of arriving:"></entry>
 				<!-- 需要添加翻译的字段id -->
 				<entry key="vnrl_export_trans" value="goodsdesc,exporter,end_port"></entry>
 				<!-- 需要添加文本框描述的字段id -->
@@ -282,6 +302,7 @@
 				<!-- 巴拿马进口搜索条件字段-->
 				<entry key="panama_import_conditionzhname" value="国家：,海关编码：,CIF价格：,重量：,产品描述：,进口商：,日期：,数量：,原产国：,抵达港："></entry>
 				<entry key="panama_import_conditionfieldid" value="country,hscode,cifstartprice/cifendprice,startweight/endweight,goodsdesc,importer,startdate/enddate,startquantity/endquantity,origin_country,end_port"></entry>
+				<entry key="panama_import_conditionenname" value="country：,Custom number：,CIF price：,Weight:,Product Description：,Importer:,Date：,Amount:,Origin country：,Pire of arriving:"></entry>
 				<!-- 需要添加翻译的字段id -->
 				<entry key="panama_import_trans" value="goodsdesc,importer,end_port"></entry>
 				<!-- 需要添加文本框描述的字段id -->
@@ -298,6 +319,7 @@
 				<!-- 巴拿马出口搜索条件字段-->
 				<entry key="panama_export_conditionzhname" value="国家：,海关编码：,FOB价格：,重量：,产品描述：,出口商：,日期：,数量：,目的国：,起运港："></entry>
 				<entry key="panama_export_conditionfieldid" value="country,hscode,fobstartprice/fobendprice,startweight/endweight,goodsdesc,exporter,startdate/enddate,startquantity/endquantity,dest_country,start_port"></entry>
+				<entry key="panama_export_conditionenname" value="country：,Custom number：,FOB price：,weight:,Product Description：,Exporter:,Date:,Amount:,Destination country：,Loadig port:"></entry>
 				<!-- 需要添加翻译的字段id -->
 				<entry key="panama_export_trans" value="goodsdesc,exporter,start_port"></entry>
 				<!-- 需要添加文本框描述的字段id -->
@@ -314,6 +336,7 @@
 				<!-- 美国进口搜索条件字段-->
 				<entry key="usa_import_conditionzhname" value="国家：,提单号：,重量：,件数：,产品描述：,出口商：,日期：,起运港：,进口商：,通知人："></entry>
 				<entry key="usa_import_conditionfieldid" value="country,bl_number,startweight/endweight,startpackages/endpackages,goodsdesc,exporter,startdate/enddate,start_port,importer,notifier"></entry>
+				<entry key="usa_import_conditionenname" value="country：,Bill number：,weight:,Number of packages:,Product Description：,Exporter:,Date:,Loadig port:,Importer:,Notify:"></entry>
 				<!-- 需要添加翻译的字段id -->
 				<entry key="usa_import_trans" value="goodsdesc,importer,exporter,start_port,notifier"></entry>
 				<!-- 需要添加文本框描述的字段id -->
@@ -326,6 +349,7 @@
 				<!-- 墨西哥进口搜索条件字段-->
 				<entry key="mexicon_import_conditionzhname" value="国家：,海关编码：,FOB价格：,数量：,产品描述：,日期：,原产国："></entry>
 				<entry key="mexicon_import_conditionfieldid" value="country,hscode,fobstartprice/fobendprice,startquantity/endquantity,goodsdesc,startdate/enddate,origin_country"></entry>
+				<entry key="mexicon_import_conditionenname" value="country：,Custom number：,FOB price：,Amount:,Product Description：,Date:,Origin country："></entry>
 				<!-- 需要添加翻译的字段id -->
 				<entry key="mexicon_import_trans" value="goodsdesc"></entry>
 				<!-- 需要添加文本框描述的字段id -->
@@ -342,6 +366,7 @@
 				<!-- 洪都拉斯进口搜索条件字段-->
 				<entry key="honduras_import_conditionzhname" value="国家：,海关编码：,CIF价格：,重量：,产品描述：,日期：,原产国："></entry>
 				<entry key="honduras_import_conditionfieldid" value="country,hscode,cifstartprice/cifendprice,startweight/endweight,goodsdesc,startdate/enddate,origin_country"></entry>
+				<entry key="honduras_import_conditionenname" value="country：,Custom number：,CIF price：,Weight:,Product Description：,Date:,Origin country："></entry>
 				<!-- 需要添加翻译的字段id -->
 				<entry key="honduras_import_trans" value="goodsdesc"></entry>
 				<!-- 需要添加文本框描述的字段id -->
@@ -358,6 +383,7 @@
 				<!-- 洪都拉斯出口搜索条件字段-->
 				<entry key="honduras_export_conditionzhname" value="国家：,海关编码：,FOB价格：,重量：,产品描述：,日期：,目的国："></entry>
 				<entry key="honduras_export_conditionfieldid" value="country,hscode,fobstartprice/fobendprice,startweight/endweight,goodsdesc,startdate/enddate,dest_country"></entry>
+				<entry key="honduras_export_conditionenname" value="country：,Custom number：,FOB price：,Weight:,Product Description：,Date:,Destination country："></entry>
 				<!-- 需要添加翻译的字段id -->
 				<entry key="honduras_export_trans" value="goodsdesc"></entry>
 				<!-- 需要添加文本框描述的字段id -->
@@ -370,6 +396,7 @@
 				<!-- 哥斯达黎加进口搜索条件字段-->
 				<entry key="const_import_conditionzhname" value="国家：,海关编码：,CIF价格：,重量：,产品描述：,进口商：,日期："></entry>
 				<entry key="const_import_conditionfieldid" value="country,hscode,cifstartprice/cifendprice,startweight/endweight,goodsdesc,importer,startdate/enddate"></entry>
+				<entry key="const_import_conditionenname" value="country：,Custom number：,CIF price：,Weight:,Product Description：,Importer:,Date:"></entry>
 				<!-- 需要添加翻译的字段id -->
 				<entry key="const_import_trans" value="goodsdesc,importer"></entry>
 				<!-- 需要添加文本框描述的字段id -->
@@ -382,6 +409,7 @@
 				<!-- 哥斯达黎加出口搜索条件字段-->
 				<entry key="const_export_conditionzhname" value="国家：,海关编码：,CIF价格：,重量：,产品描述：,出口商：,日期："></entry>
 				<entry key="const_export_conditionfieldid" value="country,hscode,cifstartprice/cifendprice,startweight/endweight,goodsdesc,exporter,startdate/enddate"></entry>
+				<entry key="const_export_conditionenname" value="country：,Custom number：,CIF price：,Weight:,Product Description：,Exporter:,Date:"></entry>
 				<!-- 需要添加翻译的字段id -->
 				<entry key="const_export_trans" value="goodsdesc,exporter"></entry>
 				<!-- 需要添加文本框描述的字段id -->
@@ -394,6 +422,7 @@
 				<!-- 危地马拉进口搜索条件字段-->
 				<entry key="wdml_import_conditionzhname" value="国家：,提单号：,数量：,原产国：,产品描述：,进口商：,日期：,起运港：,抵达港：,出口商：,通知人："></entry>
 				<entry key="wdml_import_conditionfieldid" value="country,bl_number,startquantity/endquantity,origin_country,goodsdesc,importer,startdate/enddate,start_port,end_port,exporter,notifier"></entry>
+				<entry key="wdml_import_conditionenname" value="country：,Bill number：,Amount:,Origin country:,Product Description：,Importer:,Date:,Loadig port:,Pire of arriving:,Exporter:,Notify:"></entry>
 				<!-- 需要添加翻译的字段id -->
 				<entry key="wdml_import_trans" value="goodsdesc,exporter,importer,start_port,end_port,notifier"></entry>
 				<!-- 需要添加文本框描述的字段id -->
@@ -412,6 +441,7 @@
 				<!-- 危地马拉出口搜索条件字段-->
 				<entry key="wdml_export_conditionzhname" value="国家：,提单号：,数量：,原产国：,产品描述：,进口商：,日期：,起运港：,抵达港：,出口商：,通知人："></entry>
 				<entry key="wdml_export_conditionfieldid" value="country,bl_number,startquantity/endquantity,origin_country,goodsdesc,importer,startdate/enddate,start_port,end_port,exporter,notifier"></entry>
+				<entry key="wdml_export_conditionenname" value="country：,Bill number：,Amount:,Origin country:,Product Description：,Importer:,Date:,Loadig port:,Pire of arriving:,Exporter:,Notify:"></entry>
 				<!-- 需要添加翻译的字段id -->
 				<entry key="wdml_export_trans" value="goodsdesc,exporter,importer,start_port,end_port,notifier"></entry>
 				<!-- 需要添加文本框描述的字段id -->
@@ -429,6 +459,7 @@
 				<!-- 尼加拉瓜进口搜索条件字段-->
 				<entry key="njlg_import_conditionzhname" value="国家：,提单号：,数量：,原产国：,产品描述：,出口商：,日期：,起运港：,抵达港：,进口商：,通知人："></entry>
 				<entry key="njlg_import_conditionfieldid" value="country,bl_number,startquantity/endquantity,origin_country,goodsdesc,exporter,startdate/enddate,start_port,end_port,importer,notifier"></entry>
+				<entry key="njlg_import_conditionenname" value="country：,Bill number：,Amount:,Origin country:,Product Description：,Exporter:,Date:,Loadig port:,Pire of arriving:,Importer:,Notify:"></entry>
 				<!-- 需要添加翻译的字段id -->
 				<entry key="njlg_import_trans" value="goodsdesc,exporter,importer,start_port,end_port,notifier"></entry>
 				<!-- 需要添加文本框描述的字段id -->
@@ -445,6 +476,7 @@
 				<!-- 尼加拉瓜出口搜索条件字段-->
 				<entry key="njlg_export_conditionzhname" value="国家：,提单号：,数量：,原产国：,产品描述：,出口商：,日期：,起运港：,抵达港：,进口商：,通知人："></entry>
 				<entry key="njlg_export_conditionfieldid" value="country,bl_number,startquantity/endquantity,origin_country,goodsdesc,exporter,startdate/enddate,start_port,end_port,importer,notifier"></entry>
+				<entry key="njlg_export_conditionenname" value="country：,Bill number：,Amount:,Origin country:,Product Description：,Exporter:,Date:,Loadig port:,Pire of arriving:,Importer:,Notify:"></entry>
 				<!-- 需要添加翻译的字段id -->
 				<entry key="njlg_export_trans" value="goodsdesc,exporter,importer,start_port,end_port,notifier"></entry>
 				<!-- 需要添加文本框描述的字段id -->
@@ -461,6 +493,7 @@
 				<!--萨尔瓦多进口搜索条件字段-->
 				<entry key="sewd_import_conditionzhname" value="国家：,提单号：,数量：,原产国：,产品描述：,出口商：,日期：,起运港：,抵达港：,进口商：,通知人："></entry>
 				<entry key="sewd_import_conditionfieldid" value="country,bl_number,startquantity/endquantity,origin_country,goodsdesc,exporter,startdate/enddate,start_port,end_port,importer,notifier"></entry>
+				<entry key="sewd_import_conditionenname" value="country：,Bill number：,Amount:,Origin country:,Product Description：,Exporter:,Date:,Loadig port:,Pire of arriving:,Importer:,Notify:"></entry>
 				<!-- 需要添加翻译的字段id -->
 				<entry key="sewd_import_trans" value="goodsdesc,exporter,importer,start_port,end_port,notifier"></entry>
 				<!-- 需要添加文本框描述的字段id -->
@@ -478,6 +511,7 @@
 				<!--萨尔瓦多出口搜索条件字段-->
 				<entry key="sewd_export_conditionzhname" value="国家：,提单号：,数量：,原产国：,产品描述：,出口商：,日期：,起运港：,抵达港：,进口商：,通知人："></entry>
 				<entry key="sewd_export_conditionfieldid" value="country,bl_number,startquantity/endquantity,origin_country,goodsdesc,exporter,startdate/enddate,start_port,end_port,importer,notifier"></entry>
+				<entry key="sewd_export_conditionenname" value="country：,Bill number：,Amount:,Origin country:,Product Description：,Exporter:,Date:,Loadig port:,Pire of arriving:,Importer:,Notify:"></entry>
 				<!-- 需要添加翻译的字段id -->
 				<entry key="sewd_export_trans" value="goodsdesc,exporter,importer,start_port,end_port,notifier"></entry>
 				<!-- 需要添加文本框描述的字段id -->
@@ -495,6 +529,7 @@
 				<!--乌克兰进口搜索条件字段-->
 				<entry key="wkl_import_conditionzhname" value="国家：,海关编码：,日期：,净重：,产品描述：,进口商：,出口商："></entry>
 				<entry key="wkl_import_conditionfieldid" value="country,hscode,startdate/enddate,startnetweight/endnetweight,goodsdesc,importer,exporter"></entry>
+				<entry key="wkl_import_conditionenname" value="country：,Custom number：,Date:,Net weight:,Product Description：,Importer:,Exporter:"></entry>
 				<!-- 需要添加翻译的字段id -->
 				<entry key="wkl_import_trans" value="goodsdesc,exporter,importer"></entry>
 				<!-- 需要添加文本框描述的字段id -->
@@ -507,6 +542,7 @@
 				<!--英国进口搜索条件字段-->
 				<entry key="uk_import_conditionzhname" value="国家：,海关编码：,日期：,公司名称：,产品描述："></entry>
 				<entry key="uk_import_conditionfieldid" value="country,hscode,startdate/enddate,companyname,goodsdesc"></entry>
+				<entry key="uk_import_conditionenname" value="country：,Custom number：,Date:,Company name:,Product Description："></entry>
 				<!-- 需要添加翻译的字段id -->
 				<entry key="uk_import_trans" value="goodsdesc"></entry>
 				<!-- 需要添加文本框描述的字段id -->
@@ -519,6 +555,9 @@
 				<!--中国搜索条件字段-->
 				<entry key="china_conditionzhname" value="国家：,海关编码：,CIF价格：,数量：,收发货地：,公司名称：,日期：,贸易类型：,报告口岸：,产销国："></entry>
 				<entry key="china_conditionfieldid" value="country,hscode,cifstartprice/cifendprice,startquantity/endquantity,product_place,companyname,startdate/enddate,trade_type,start_port,origin_country"></entry>
+
+				<entry key="china_conditionenname" value="country：,Custom number：,CIF price:,Amount:,Ship/Rec Location：,Company name:,Date:,Type:,Report port:,产销国："></entry>
+
 				<!-- 需要添加翻译的字段id -->
 				<entry key="china_trans" value=""></entry>
 				<!-- 需要添加文本框描述的字段id -->
@@ -534,6 +573,7 @@
 				<!--韩国搜索条件字段-->
 				<entry key="korea_conditionzhname" value="国家：,海关编码：,日期：,贸易类型：,产品描述：,公司名称："></entry>
 				<entry key="korea_conditionfieldid" value="country,hscode,startdate/enddate,trade_type,goodsdesc,companyname"></entry>
+				<entry key="korea_conditionenname" value="country：,Custom number：,Date:y,Type:,Product Description：,Company name:"></entry>
 				<!-- 需要添加翻译的字段id -->
 				<entry key="korea_trans" value="goodsdesc,companyname"></entry>
 				<!-- 需要添加文本框描述的字段id -->
@@ -546,6 +586,7 @@
 				<!--巴基斯坦进口搜索条件字段-->
 				<entry key="pakistan_import_conditionzhname" value="国家：,提单号：,件数：,重量：,产品描述：,日期：,出口商：,进口商：,起运港：,抵达港："></entry>
 				<entry key="pakistan_import_conditionfieldid" value="country,bl_number,startpackages/endpackages,startweight/endweight,goodsdesc,startdate/enddate,exporter,importer,start_port,end_port"></entry>
+				<entry key="pakistan_import_conditionenname" value="country：,Bill number：,Number of packages:,Weight:,Product Description：,Date:,Exporter:,Importer:,Loadig port:,Pire of arriving:"></entry>
 				<!-- 需要添加翻译的字段id -->
 				<entry key="pakistan_import_trans" value="end_port,importer,goodsdesc,exporter,start_port"></entry>
 				<!-- 需要添加文本框描述的字段id -->
@@ -559,6 +600,7 @@
 				<!--越南进口搜索条件字段-->
 				<entry key="yn_import_conditionzhname" value="国家：,海关编码：,数量：,CIF金额：,产品描述：,日期：,进口商：,出口商：,抵达港：,原产国："></entry>
 				<entry key="yn_import_conditionfieldid" value="country,hscode,startquantity/endquantity,cifstartprice/cifendprice,goodsdesc,startdate/enddate,importer,exporter,end_port,origin_country"></entry>
+				<entry key="yn_import_conditionenname" value="country：,Custom number：,Amount:,CIF price:,Product Description：,Date:,Importer:,Exporter:,Pire of arriving:,Origin_country:,"></entry>
 				<!-- 需要添加翻译的字段id -->
 				<entry key="yn_import_trans" value="goodsdesc,exporter,importer,end_port"></entry>
 				<!-- 需要添加文本框描述的字段id -->
@@ -575,6 +617,7 @@
 				<!--越南出口搜索条件字段-->
 				<entry key="yn_export_conditionzhname" value="国家：,海关编码：,数量：,FOB金额：,产品描述：,日期：,进口商：,出口商：,起运港：,原产国："></entry>
 				<entry key="yn_export_conditionfieldid" value="country,hscode,startquantity/endquantity,fobstartprice/fobendprice,goodsdesc,startdate/enddate,importer,exporter,start_port,origin_country"></entry>
+				<entry key="yn_export_conditionenname" value="country：,Custom number：,Amount:,FOB price:,Product Description：,Date:,Importer:,Exporter:,Loadig port:,Origin_country:,"></entry>
 				<!-- 需要添加翻译的字段id -->
 				<entry key="yn_export_trans" value="goodsdesc,exporter,importer,start_port"></entry>
 				<!-- 需要添加文本框描述的字段id -->
@@ -591,6 +634,7 @@
 				<!--印度进口搜索条件字段-->
 				<entry key="india_import_conditionzhname" value="国家：,海关编码：,日期：,数量：,产品描述：,进口商：,起运港："></entry>
 				<entry key="india_import_conditionfieldid" value="country,hscode,startdate/enddate,startquantity/endquantity,goodsdesc,importer,start_port"></entry>
+				<entry key="india_import_conditionenname" value="country：,Custom number：,Date:,Amount:,Product Description：,Importer:,Loadig port:"></entry>
 				<!-- 需要添加翻译的字段id -->
 				<entry key="india_import_trans" value="goodsdesc,importer,start_port"></entry>
 				<!-- 需要添加文本框描述的字段id -->
@@ -603,6 +647,7 @@
 				<!-- 俄罗斯进口搜索条件字段-->
 				<entry key="russian_import_conditionzhname" value="国家：,海关编码：,CIF金额：,重量：,产品描述：,日期：,进口商：,出口商：,原产国：,目的国："></entry>
 				<entry key="russian_import_conditionfieldid" value="country,hscode,cifstartprice/cifendprice,startweight/endweight,goodsdesc,startdate/enddate,importer,exporter,origin_country,dest_country"></entry>
+				<entry key="russian_import_conditionenname" value="country：,Custom number：,CIF price:,Date:,Weight:,Product Description：,Date:,Importer:,Exporter:,Origin country:,Destination country:"></entry>
 				<!-- 需要添加翻译的字段id -->
 				<entry key="russian_import_trans" value="goodsdesc,importer,exporter"></entry>
 				<!-- 需要添加文本框描述的字段id -->
@@ -618,6 +663,7 @@
 				<!-- 俄罗斯出口搜索条件字段-->
 				<entry key="russian_export_conditionzhname" value="国家：,海关编码：,CIF金额：,重量：,产品描述：,日期：,进口商：,出口商：,目的国："></entry>
 				<entry key="russian_export_conditionfieldid" value="country,hscode,cifstartprice/cifendprice,startweight/endweight,goodsdesc,startdate/enddate,importer,exporter,dest_country"></entry>
+				<entry key="russian_export_conditionenname" value="country：,Custom number：,CIF price:,Weight:,Product Description：,Date:,Importer:,Exporter:,Destination country:"></entry>
 				<!-- 需要添加翻译的字段id -->
 				<entry key="russian_export_trans" value="goodsdesc,importer,exporter"></entry>
 				<!-- 需要添加文本框描述的字段id -->
@@ -633,6 +679,7 @@
 				<!-- 玻利维亚进口搜索条件字段-->
 				<entry key="bolivia_import_conditionzhname" value="国家：,海关编码：,CIF金额：,净重：,产品描述：,日期：,FOB价格：,进口商：,出口商：,原产国："></entry>
 				<entry key="bolivia_import_conditionfieldid" value="country,hscode,cifstartprice/cifendprice,startnetweight/endnetweight,goodsdesc,startdate/enddate,fobstartprice/fobendprice,importer,exporter,origin_country"></entry>
+				<entry key="bolivia_import_conditionenname" value="country：,Custom number：,CIF price:,Net weight:,Product Description：,Date:,FBO price:,Importer:,Exporter:,Origin country:"></entry>
 				<!-- 需要添加翻译的字段id -->
 				<entry key="bolivia_import_trans" value="goodsdesc,importer,exporter"></entry>
 				<!-- 需要添加文本框描述的字段id -->

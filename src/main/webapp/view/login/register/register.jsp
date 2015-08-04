@@ -18,7 +18,7 @@
 
 <script type="text/javascript" src="<%=basePath%>/static/js/login/regest.js"></script>
 <script type="text/javascript" src="<%=basePath%>/static/js/common/check.js"></script>
-<title>英蓓-注册</title>
+<title>Inforvellor-register</title>
 <script type="text/javascript">
 $(document).ready(function(){
 	myRandReload();
@@ -57,7 +57,7 @@ $(document).ready(function(){
 	   </div>
 	   <!-- body -->
 	   <div class="sub">
-	    <div class='titleLeft'>会员注册中心</div>
+	    <div class='titleLeft'>Member registration center</div>
 	    <div class='titleRight'>
 	    	<div class='imgDiv'><a href="/gbdbas/view/login/infobase/login.jsp" target="_self"><img src="/gbdbas/static/img/login/login.png"/></a></div>
 	    	<div class='textDiv'>我已注册，现在就</div>
@@ -67,7 +67,7 @@ $(document).ready(function(){
 	         <div class='formDiv'>
 	         	 <ul>
 	         	  <li>
-	         	    <div class='a_text'>用户名:</div>
+	         	    <div class='a_text'>User name:</div>
 	         	    <div class="a_input">
 						<div>
 						   <input id="loginName" name="loginName" class="inputbox" /> 
@@ -75,7 +75,7 @@ $(document).ready(function(){
 	         	    </div>
 	         	  </li>
 	         	  <li>
-		         	  <div class='a_text'>密码:</div>
+		         	  <div class='a_text'>Password:</div>
 		         	    <div class="a_input">
 							<div>
 								<input name="loginPassword" id="loginPassword" type="password" class="inputbox" />
@@ -83,7 +83,7 @@ $(document).ready(function(){
 		         	    </div>
 	         	  </li>
 	         	  <li>
-	         	   <div class='a_text'>邮箱:</div>
+	         	   <div class='a_text'>Email:</div>
 	         	    <div class="a_input">
 						<div>
 							<input name="email" id="email" type="text" class="inputbox" />
@@ -123,7 +123,7 @@ $(document).ready(function(){
 	       </form>
 	    </div>
 	    
-	    <div id="regestButton" onclick="regest()"><div>注&nbsp;&nbsp;册</div></div>
+	    <div id="regestButton" onclick="regest()"><div>Registration</div></div>
 	   </div>
 	   <!-- bottom -->
 	   <div class="bottomDiv">
@@ -132,9 +132,9 @@ $(document).ready(function(){
    <!-- 激活邮箱 -->
    <div  id="activeDiv" closed="true" class="easyui-dialog" style="border-width:1px; width:400px;height:400px;padding:10px 20px;overflow-x:hidden;">
        <div class="toMail">
-       <font  >恭喜您！<span id="name"></span></font><br/>
-       <font >我们已经向您的邮箱  发送了一封激活邮件，请点击邮件中的链接完成激活！</font><br/>
-                前往 <a id='emailId' href="#" style='font-size:16px;'></a> 激活  <br/>
+       <font  >Congratulations!<span id="name"></span></font><br/>
+       <font>We have sent an activation email to your email. Please click the link in the email to complete your account activation</font><br/>
+                Go to <a id='emailId' href="#" style='font-size:16px;'></a> Activate  <br/>
        </div>
         <!--  <button id="redoButton" onclick="sendAgin()">重新发送</button>-->
    </div>

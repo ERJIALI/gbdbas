@@ -42,7 +42,7 @@
 		        </li>
 		        <li >
 		         <span ><img src="<%=basePath%>static/img/sellcenter/tree_add.png">
-		                <a href="javascript:void(0)" onclick="showFrame(2)">我的订单</a>
+		                <a href="javascript:void(0)" onclick="showFrame(2)">My order</a>
 		          </span>
 		        </li>
 		        <li >
@@ -75,10 +75,10 @@
 		         </div>
 		        <div id="myInfo">
 		              <table>
-		                  <tr><td>用户名称:<span  id="myLoginName"></span></td></tr>
-		                  <tr><td>注册日期：<span  id="registertime"></span></td></tr>
+		                  <tr><td>User name:<span  id="myLoginName"></span></td></tr>
+		                  <tr><td>Registration Date：<span  id="registertime"></span></td></tr>
 		                  <tr><td>上次登录：<span  id="endlogintime"></span></td></tr>
-		                  <tr><td>邮箱：<span  id="myEmial"></span></td></tr>
+		                  <tr><td>email：<span  id="myEmial"></span></td></tr>
 		               </table>
 		        </div>
 		    </div>
@@ -95,22 +95,22 @@
 	         <div class='upUserForm' align="center">
 	            <table>
 		           <tr>
-			           <td class='tag'>登录名：</td>
+			           <td class='tag'>User name：</td>
 			           <td><input type='text' readonly='true' style='border:none' id='loginName' name='loginName'></td>
 			       </tr>
 		           <tr>
-		                 <td class='tag'>真实姓名：</td>
+		                 <td class='tag'>Real name：</td>
 		               <td><input type='text' id='userName' name='userName' class='inputNomarl'  class="easyui-validatebox" validtype="realname"></td>
 		           </tr>
 		           <tr>
-		               <td class='tag'>注册邮箱：</td>
+		               <td class='tag'>Register e-mail：</td>
 		               <td><input type='text' id='email' validtype="email" class='inputNomarl'  name='email' invalidMessage="邮箱格式不对" missingMessage='邮箱不能为空'
 		               class="easyui-validatebox" data-options="required:true"></td>
 		           </tr>
 		           <tr><td class='tag'>单位名称：</td><td><input type='text' class='inputNomarl'  id='unitName' name='unitName'></td></tr>
-		           <tr><td class='tag'>手机：</td><td><input type='text' class='inputNomarl' class="easyui-validatebox" id='phone' name='phone' validtype="mobile"></td></tr>
+		           <tr><td class='tag'>Cell phone：</td><td><input type='text' class='inputNomarl' class="easyui-validatebox" id='phone' name='phone' validtype="mobile"></td></tr>
 		           <tr><td class='tag'>QQ：</td><td><input type='text' class='inputNomarl' id='qq' class="easyui-validatebox"  name='qq' validtype="qq" ></td></tr>
-		           <tr><td class='tag'>所在地：</td>
+		           <tr><td class='tag'>Location：</td>
 		                <td>
 		                   <input id="country" name='country'>
 		                   <input id="province" name='province' >  
@@ -120,18 +120,18 @@
 		             <td></td><td><input id="city" name='city'></td>
 		           </tr>
 		           <tr>
-		                 <td class='tag' > 住址：</td>
+		                 <td class='tag' > Address：</td>
 		                 <td><textarea id='address'  name='address'></textarea></td>
 		           </tr>
 		           <tr>
-		                 <td class='tag'>邮编：</td><td><input type='text'  class='inputNomarl' name='postalNum'   class="easyui-validatebox"  id='postalNum'  class="easyui-validatebox" validtype='zip' ></td>
+		                 <td class='tag'>Zip code：</td><td><input type='text'  class='inputNomarl' name='postalNum'   class="easyui-validatebox"  id='postalNum'  class="easyui-validatebox" validtype='zip' ></td>
 		         </tr>
-		           <tr><td class='tag'>电话：</td><td><input type='text' name='tel' class='inputNomarl'   class="easyui-validatebox"  id='tel'></td></tr>
+		           <tr><td class='tag'>Tel：</td><td><input type='text' name='tel' class='inputNomarl'   class="easyui-validatebox"  id='tel'></td></tr>
 		        </table>
 	         </div>
          	<div class='formButtom'>
-	            <span class='buttonSpan' onclick="subRecForm()">确定</span>
-	            <span class='buttonSpan' onclick="clearRecForm()">取消</span>
+	            <span class='buttonSpan' onclick="subRecForm()">OK</span>
+	            <span class='buttonSpan' onclick="clearRecForm()">Cancel</span>
 	        </div>
 	       </form> 
 	 </div>

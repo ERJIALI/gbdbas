@@ -40,14 +40,14 @@
 			<div class="alldb_advancesearch">
 				<div style="padding-top: 14px; background-color: #F5FAF9; width:100%; height: 30px; line-height: 20px;">
 					<b><font color="#478DE3" id="fontText" style="font-size: 18px; font-family: 微软雅黑, 宋体; padding-left: 16px">
-							我的客户市场分析
+							Market analysis of my customers
 						</font>
 					</b>
 				</div>
 				<div align="left" width="920px">
 					<div class="alldb_firstcols">
 						<font class="alldb_fieldname">
-							公司名称
+							Company name
 							&nbsp;:&nbsp;
 						</font>
 						<input type="text" id="jzcompanytext" name="jzexporter"
@@ -55,7 +55,7 @@
 					</div>
 					<div class="alldb_secondcols">
 						<font class="alldb_fieldname">
-							选择国家&nbsp;:&nbsp;
+							Select country&nbsp;:&nbsp;
 						</font>
 						<select id="equirementSelects36" style="width: 190px"></select>
 						<div id="sps36"></div>
@@ -63,7 +63,7 @@
 					<div class="alldb_firstcols">
 						<div style="float: left;">
 							<font class="alldb_fieldname">
-								时间跨度&nbsp;:&nbsp;
+								Time Span&nbsp;:&nbsp;
 							</font>
 							<input id="compbegindateFlexBr" value="2012-01-01"
 								style="width: 88px; height: 20px; border: 1px solid #95b8e7; border-color: #e5e5e5; border-radius: 4px 4px 4px 4px;"
@@ -81,7 +81,7 @@
 					</div>
 					<div class="alldb_firstcols" style="height: 40px">
 						<div id="" style="float: left; margin-left: 550px; margin-top: -5px; padding-bottom: 20px;">
-							<a class="btn_cls" title="立即查询" href="javascript:quankuCompsent(this);">立即查询</a>
+							<a class="btn_cls" title="立即查询" href="javascript:quankuCompsent(this);">Immediate Search</a>
 					</div>
 				</div>
 			</div>
