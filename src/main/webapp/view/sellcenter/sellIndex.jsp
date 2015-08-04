@@ -76,7 +76,9 @@
 		        <div id="myInfo">
 		              <table>
 		                  <tr><td>User name:<span  id="myLoginName"></span></td></tr>
+
 		                  <tr><td>Registration Date：<span  id="registertime"></span></td></tr>
+
 		                  <tr><td>上次登录：<span  id="endlogintime"></span></td></tr>
 		                  <tr><td>email：<span  id="myEmial"></span></td></tr>
 		               </table>

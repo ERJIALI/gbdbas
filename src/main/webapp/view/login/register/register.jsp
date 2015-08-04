@@ -136,7 +136,6 @@ $(document).ready(function(){
        <font>We have sent an activation email to your email. Please click the link in the email to complete your account activation</font><br/>
                 Go to <a id='emailId' href="#" style='font-size:16px;'></a> Activate  <br/>
        </div>
-        <!--  <button id="redoButton" onclick="sendAgin()">重新发送</button>-->
    </div>
    
 </body>

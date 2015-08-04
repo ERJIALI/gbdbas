@@ -570,6 +570,7 @@ international trade data system in the world.</h3>
 </select>                        </div>
                     </div>
                      <label>Gender : </label>                    <label class="radio-inline">
+
                         <input type="radio" name="sex" value="Male" id="male" />                        Male
                     </label>
                     <label class="radio-inline">
@@ -586,6 +587,7 @@ international trade data system in the world.</h3>
                          
                      </div>
                </div>
+
                     <button class="btn btn-lg btn-primary btn-block signup-btn" type="submit">
                         Create my account</button>
             </form>           
@@ -594,5 +596,7 @@ international trade data system in the world.</h3>
 </div>
       </div>
     </div>
+
   </div>
 </div>
+

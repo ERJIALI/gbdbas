@@ -68,9 +68,12 @@
 	           </li>
 	             
 	           <li class="menu_line"></li>
+
                <li class="nav-item no-subnav active" id="nav-item_2"><a onclick="clickMenuForword(6)" ><span class="primary-link" id="font_color6">Trading Info</span></a></li>
                <li class="menu_line"></li>
                <li class="nav-item no-subnav active" id="nav-item_3"><a onclick="clickMenuForword(7)" ><span class="primary-link">Clients/Rivals</span></a>
+
+
                	  <div class="subnav" id="subnav_3">                       
 	                     <div class="subnav-inner">
 		                     <ul>
