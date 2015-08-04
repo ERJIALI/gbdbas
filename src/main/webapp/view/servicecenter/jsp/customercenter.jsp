@@ -15,7 +15,7 @@
 <script type="text/javascript" 	src="${pageContext.request.contextPath }/static/js/jquery/jquery-1.8.2.min.js"></script>
 <script type="text/javascript"	src="${pageContext.request.contextPath }/static/js/easyui/jquery.easyui.min.js"></script>
 <script type="text/javascript" 	src="${pageContext.request.contextPath }/view/servicecenter/js/customercenter.js"></script>
-<title>客服中心</title>
+<title>Customer Service</title>
 </head>
 <body style="background-color: #f0f3f5;" >
 	<div style="min-height: 100%;height: auto!important;height: 100%;position: relative;">
@@ -25,7 +25,7 @@
 			  <div class="advancesearchCenter">
 			  	<div style="width: 930px;margin: 0 auto ;">
 					<div style="width: 930px;text-align: left;">
-						<div style="font-size: 14px; font-family: 宋体; color: #1369c0;width: 100px;height: 36px;line-height: 36px;font-weight: bold;"><img alt="客服中心" style="vertical-align: middle;" src="${pageContext.request.contextPath}/static/img/servicecenter/center.png">客服中心</div>
+						<div style="font-size: 14px; font-family: 宋体; color: #1369c0;width: 100px;height: 36px;line-height: 36px;font-weight: bold;"><img alt="客服中心" style="vertical-align: middle;" src="${pageContext.request.contextPath}/static/img/servicecenter/center.png">Customer Service</div>
 						<div style="width: 900px; margin: 0 auto;height:160px;text-align: center;">
 							<div style="border-bottom:1px dashed #333333;height: 2px;margin:0px auto 10px auto;"></div>
 							<img alt="图片" src="/gbdbas/static/img/contrastreport/img/yb.png" style="width: 900px; height: 140px;">
@@ -65,20 +65,20 @@
 						<div id="companyInfo" style="width: 900px; margin:0 auto; text-align:center;margin-left: 40px;padding-bottom: 50px;">
 							<table width="700px" height="180px;" cellpadding="0" cellspacing="0">
 								<tr>
-									<td style="width:45px; height:auto !important;color:#333333;font-size: 14px;">姓名：</td>
+									<td style="width:45px; height:auto !important;color:#333333;font-size: 14px;">Full name：</td>
 									<td><input id="name" type="text" class="call_inp_cls"/></td>
 								</tr>
 								<tr>
-									<td style="height:auto !important;color:#333333;font-size: 14px;">电话：</td>
+									<td style="height:auto !important;color:#333333;font-size: 14px;">Tel：</td>
 									<td><input id="tel" type="text" class="call_inp_cls"/></td>
 								</tr>
 								<tr style="width: 100%; height: height:auto !important;">
-									<td style="height:auto !important;color:#333333;font-size: 14px;">留言：</td>
+									<td style="height:auto !important;color:#333333;font-size: 14px;">Leave a message：</td>
 									<td><textarea id="centent" class="call_area_cls"></textarea> </td>
 								</tr>
 								<tr>
 									<td></td>	
-									<td align="left" style="padding-left: 240px;"><a class="sub_cls" title="提交" onclick="btnClick(this)">提交</a></td>	
+									<td align="left" style="padding-left: 240px;"><a class="sub_cls" title="提交" onclick="btnClick(this)">Submit</a></td>	
 								</tr>
 							</table>
 						</div>

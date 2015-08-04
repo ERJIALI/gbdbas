@@ -20,7 +20,7 @@
 </head>
 <body>
 	<div class="footer_z_div footer_position">
-	<div class="footer_div">南通趣易信息技术有限公司版权所有 ©2013-<script>document.write((new Date()).getFullYear());</script> 苏ICP备14029798号-1
+	<div class="footer_div">Copyright © Inforvellor 2014-<script>document.write((new Date()).getFullYear());</script> 
 	</div>
 	</div>
 </body>

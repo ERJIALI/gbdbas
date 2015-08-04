@@ -35,8 +35,8 @@
 			</c:if>
 		</div>
 	  	<div id="head" style="background-color: #ffffff;top: 23px;margin:0 auto;align:left;padding: 0;width: 1210px;height:86px;position:absolute;">
-		  	<div style="float:left; width:100px; solid #0000FF;padding-left: 20px">
-				<img alt="logo" src="${root }/static/img/login/infobase_logo.png" >
+		  	<div style="float:left; width:100px; solid #0000FF;padding-left: 20px;">
+				<img alt="logo" src="${root }/static/img/login/INFORVELLOR-LOGO-EMAIL.png">
 		  	</div>
 		  	<div style="float:right;padding-top:6px;right:0px;">
 			  	<div id="nickname" class="loginsms" style="margin-top:0px;padding-right:5px;width:220px">
@@ -68,9 +68,12 @@
 	           </li>
 	             
 	           <li class="menu_line"></li>
-               <li class="nav-item no-subnav active" id="nav-item_2"><a onclick="clickMenuForword(6)" ><span class="primary-link" id="font_color6">Trading Information</span></a></li>
+
+               <li class="nav-item no-subnav active" id="nav-item_2"><a onclick="clickMenuForword(6)" ><span class="primary-link" id="font_color6">Trading Info</span></a></li>
                <li class="menu_line"></li>
-               <li class="nav-item no-subnav active" id="nav-item_3"><a onclick="clickMenuForword(7)" ><span class="primary-link">Customers/Competitors</span></a>
+               <li class="nav-item no-subnav active" id="nav-item_3"><a onclick="clickMenuForword(7)" ><span class="primary-link">Clients/Rivals</span></a>
+
+
                	  <div class="subnav" id="subnav_3">                       
 	                     <div class="subnav-inner">
 		                     <ul>

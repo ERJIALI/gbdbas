@@ -81,6 +81,7 @@ $(document).ready(function(){
 	   <div class="panel-heading text-center">Password Retrieve Processing
 	   </div>
 	   <!-- body -->
+
 	  
 	     <div class="panel-body">
 	    <div class="find_div">
@@ -89,11 +90,13 @@ $(document).ready(function(){
 			  <li role="presentation" ><a >Security Verification</a></li>
 			  <li role="presentation" class="active"><a >Reset password</a></li>
 			</ul>
+
 	       <div class="mod-step-detail"> 
 		       <p class="step-form-tip m_l80">The Account you are trying to reset the password：${sessionScope.user.loginName }</p> 
 		       <form action="/gbdbas/UserPassword/updatePwd" method="post" id="resetpwd-form" onsubmit="return validateUserPwd()"> 
 		       	<div class="pass-input-container clearfix">
 	       	        <label class="pass-input-title" for="password">New password</label> 
+
 	       	        <input type="password" class="form-control" name="password" id="password" value="" autocomplete="off"> 
 	       	        <span class="pass-input-msg" id="pwd-msg" style="display: none;">Please enter your new password</span> 
 		       	</div> 
@@ -101,6 +104,7 @@ $(document).ready(function(){
 		       		<label class="pass-input-title" for="repassword">re-type password</label> 
 		       		<input type="password" class="form-control" name="verifypwd" id="verifypwd" value="" autocomplete="off"> 
 		       		<span class="pass-input-msg" id="verifypwd-msg" style="display: none;">Please enter your password again</span> 
+
 		       	</div> 
 		       	<div class="m_l80"> 
 		       		<input type="submit" name="" value="Next" class="pass-button-submit" id="submit">  

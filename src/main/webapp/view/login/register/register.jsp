@@ -18,7 +18,7 @@
 
 <script type="text/javascript" src="<%=basePath%>/static/js/login/regest.js"></script>
 <script type="text/javascript" src="<%=basePath%>/static/js/common/check.js"></script>
-<title>英蓓-注册</title>
+<title>Inforvellor-register</title>
 <script type="text/javascript">
 $(document).ready(function(){
 	myRandReload();
@@ -123,7 +123,7 @@ $(document).ready(function(){
 	       </form>
 	    </div>
 	    
-	    <div id="regestButton" onclick="regest()"><div>注&nbsp;&nbsp;册</div></div>
+	    <div id="regestButton" onclick="regest()"><div>Registration</div></div>
 	   </div>
 	   <!-- bottom -->
 	   <div class="bottomDiv">
@@ -132,9 +132,9 @@ $(document).ready(function(){
    <!-- 激活邮箱 -->
    <div  id="activeDiv" closed="true" class="easyui-dialog" style="border-width:1px; width:400px;height:400px;padding:10px 20px;overflow-x:hidden;">
        <div class="toMail">
-       <font  >恭喜您！<span id="name"></span></font><br/>
-       <font >我们已经向您的邮箱  发送了一封激活邮件，请点击邮件中的链接完成激活！</font><br/>
-                前往 <a id='emailId' href="#" style='font-size:16px;'></a> 激活  <br/>
+       <font  >Congratulations!<span id="name"></span></font><br/>
+       <font>We have sent an activation email to your email. Please click the link in the email to complete your account activation</font><br/>
+                Go to <a id='emailId' href="#" style='font-size:16px;'></a> Activate  <br/>
        </div>
    </div>
    

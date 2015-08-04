@@ -81,6 +81,7 @@ $(document).ready(function(){
 	   </div>
 	   <!-- body -->
 
+
 	    <div class="panel-body">
 	    <div class="find_div">
 	     
@@ -95,14 +96,17 @@ $(document).ready(function(){
 		       	<div class="pass-input-container clearfix" id="pass-auth-select"> 
 			       	<input type="text" class="form-control" placeholder="Your Account" name="loginName" value="" id="loginName"> 
 			       	<span class="pass-input-msg" id="loginName_msg" style="display: none;">*Please type in your Account!</span> 
+
 		       	</div> 
 		       	<div class="pass-input-container vcode-container clearfix"> 
 		       		<input type="text" class="form-control col-md-6" placeholder="Check Code" name="veritycode" value="" id="veritycode"> 
 		       		<a href="#" onClick="javascript:myRandReload()" alt="验证码图片" title="CheckCode" class="vcode-img "> 
 						<img align="bottom" id="createcheckcode" style="width:90px;height:31px;border: 0px;">
 					</a>
+
 		       		<a href="javascript:myRandReload()" class="vcode-img-change">Refresh</a> 
 		       		<span class="pass-input-msg" id="veritycode_msg" style="display: none;">*Please type in check code</span> 
+
 		       	</div> 
 		       	<div> 
 		       		<a class="result-title-btn" href="#" onclick="netSetp();">Next</a> 

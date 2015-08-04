@@ -650,18 +650,25 @@ Service Guidelines- We provide sincere and friendly interactions with customers 
      <div class = "modal-header">
        <h4>Sign Up</h4>
       </div>
-      <div class = "modal-body">
       
+      <div class = "modal-body">
+
+      
+
               <div class="row">
+
         <div class="container-modal">
+
            <form id="regestForm" action="/gbdbas/userRegest" method="post" accept-charset="utf-8" > 
                    <h5 style="color:#A91A1A" id = requiredField>  </h5>
+
                     <div class="row">
                            <div class="col-xs-6 col-md-6">
                             <input type="text" id="FirstName" name="firstName" required="" value="" class="form-control input-lg" placeholder="First Name"  />                        </div>
                         <div class="col-xs-6 col-md-6">
                             <input type="text" id="LastName" name="lastName" value="" required="" class="form-control input-lg" placeholder="Last Name"  />                        </div>
                     </div>
+
                     <input type="text" id="email" name="email" value="" required="" class="form-control input-lg" placeholder="Your Email"  />
                     <input type="password" id="Password" name="loginPassword" required="" value="" class="form-control input-lg" placeholder="Password"  />
                     <input type="password" id="confirmPassword" name="password_confirm" required="" value="" class="form-control input-lg" placeholder="Confirm Password"  />                                 
@@ -673,12 +680,15 @@ Service Guidelines- We provide sincere and friendly interactions with customers 
                      <div>
                      <label>
                      <input id = "checkRead" type="checkbox" required ="true" checked> <span>我已阅读</span><span><a href="<%=basePath%>/view/login/register/argeement.pdf" target="_blank" title='用户注册协议'>《用户注册协议》</a></span>
+
                          <span id="pactMessege"></span>
                   </label>
                          
                      </div>
                </div>
+
                     <button id="regestButton" class="btn btn-lg btn-primary btn-block signup-btn"  onclick = "regest()" type = "button">
+
                         Create my account</button>
             </form>          	
           </div>

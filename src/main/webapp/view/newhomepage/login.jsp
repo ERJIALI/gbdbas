@@ -16,12 +16,15 @@ request.getSession().setAttribute("language","message_en_US");
 %>
 <fmt:setBundle basename="<%=language%>" var="messages"/>
 
+
 <c:set var="root" value="${pageContext.request.contextPath }"/>
+
 <!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
 <html lang="en"><head>
     <meta name="renderer" content="webkit">  
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
     <link rel="icon" href="../favicon.ico">
+
 
 	<script type="text/javascript" src="${root }/static/js/newhomepage/jquery.js"></script>
 	
@@ -33,6 +36,7 @@ request.getSession().setAttribute("language","message_en_US");
 	
 	<script type="text/javascript" src="${root}/static/js/newhomepage/jquery-2.1.3.min.js" ></script>
   
+
 
     <title>Sign in</title>
 
@@ -65,11 +69,13 @@ request.getSession().setAttribute("language","message_en_US");
 	}
 	
 
+
 	function getCode(){
 		getVeryfiedCode()
 		
 		
 	}
+
 
 	
 	
@@ -85,6 +91,7 @@ request.getSession().setAttribute("language","message_en_US");
 		document.getElementById("prog").style.display="none";
 		document.getElementById("clossBtn").style.display="block";
 		$("#warn").text(m);
+
 	}
 	function clearPrompt(){
 		document.getElementById("warn").style.display="none";
@@ -113,7 +120,10 @@ request.getSession().setAttribute("language","message_en_US");
 				rPassword = "";
 			}
 			$("#myModal").modal('show');
+
+
 			$.post("${root}/userLogin",{loginName:loginName,loginPassword :loginPassword,regCode:regCode,rPassword:rPassword,language:'chinese'},
+
 							function(data){
 							if("2" == data){
 								 promptMessage('<fmt:message key="common.passiscorr" bundle="${messages}"/>')	;							
@@ -127,7 +137,9 @@ request.getSession().setAttribute("language","message_en_US");
 								
 							}else if("1"==data){
 								clearPrompt();
+
 								location.href = "${root}/pageJump";
+
 							}else if("6"==data){
 								promptMessage('<fmt:message key="common.addisnotlogin" bundle="${messages}"/>')	;
 								
@@ -148,6 +160,7 @@ request.getSession().setAttribute("language","message_en_US");
 		
 	
 	}
+
 		
 	
 </script>
@@ -155,6 +168,7 @@ request.getSession().setAttribute("language","message_en_US");
     <script type="text/javascript" src="${root}/static/js/newhomepage/findpwd.js"></script>
       <script type="text/javascript"	src="${root }/static/js/easyui/jquery.easyui.min.js"></script>
 	<script type="text/javascript"	src="${root }/static/js/newhomepage/bootstrap.js"></script>
+
 
 
 </head><body>
@@ -193,6 +207,7 @@ request.getSession().setAttribute("language","message_en_US");
           <label>
             <input type="checkbox" value="forever" id="rPassword" name="rPassword"> Remember me
           </label>
+
  		<a href="${root}/view/login/findpassword/findpwd.jsp" class="padding-right:50px" role="button" data-toggle="modal" style="color:white">Forget Password</a>
         </div>
         </div>
@@ -200,6 +215,7 @@ request.getSession().setAttribute("language","message_en_US");
         <button class="btn btn-lg btn-primary btn-block" data-loading-text="Loading..." id="signIn"   type="submit" >Sign in</button>
         </div>
         <div class="col-lg-13 text-left">
+
         <a href="${pageContext.request.contextPath }\view\newhomepage\index.jsp#home" class="padding-left:50px" style="color:white">Go back to the home page</a>
         </div>
         </div>
@@ -228,10 +244,12 @@ request.getSession().setAttribute("language","message_en_US");
      
         <p>Please enter your email.&hellip;</p>
 
+
         <input type="text" id="loginEmail"  name="loginEmail" class="form-control" placeholder="Login Email" required="" autofocus="">
  		<input type="text" id="verifiedCode"  name="loginName" class="form-control" placeholder="" required="" autofocus="">   
  		<button type="button" class="btn btn-default" id="timer_id" onClick="getCode()">Get Verify Code</button>
  		 </div>
+
 
       <div class="modal-footer">
         <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
@@ -270,6 +288,8 @@ request.getSession().setAttribute("language","message_en_US");
   </div>
 </div>
 
+
 </body>
+
 
 </html>

@@ -103,7 +103,9 @@ String basePath = request.getScheme()+"://"+request.getServerName()+":"+request.
   <body>
   <div class="col-lg-12 text-center">
   <p></p><br><br>
+
         <img class="img-square" src="${root}/static/img/newhomepage/INFORVELLOR LOGO.jpg" alt="Generic placeholder image" style="width: 640px; height: 150px;">
+
         </div><br>
     
 <div class="container">

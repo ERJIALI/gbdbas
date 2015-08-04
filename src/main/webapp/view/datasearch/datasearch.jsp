@@ -20,7 +20,7 @@
 	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
 	<meta name="renderer" content="webkit">
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
-	<title>国际商业智能化数据信息平台</title>
+	<title>Inforvellor</title>
     <head>
 		<link href="${root }/static/css/datasearch/datasearch.css" rel="stylesheet" type="text/css" />
 		<link href="${root }/static/css/common/button/button.css" rel="stylesheet" type="text/css" />

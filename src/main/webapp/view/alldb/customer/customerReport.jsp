@@ -40,7 +40,7 @@
 			<div class="alldb_advancesearch">
 				<div style="padding-top: 14px; background-color: #F5FAF9; width:100%; height: 30px; line-height: 20px;">
 					<b><font color="#478DE3" id="fontText" style="font-size: 18px; font-family: 微软雅黑, 宋体; padding-left: 16px">
-							我的客户市场分析
+							Market analysis of my customers
 						</font>
 					</b>
 				</div>
@@ -63,7 +63,7 @@
 					<div class="alldb_firstcols">
 						<div style="float: left;">
 							<font class="alldb_fieldname">
-								时间跨度&nbsp;:&nbsp;
+								Time Span&nbsp;:&nbsp;
 							</font>
 							<input id="compbegindateFlexBr" value="2012-01-01"
 								style="width: 88px; height: 20px; border: 1px solid #95b8e7; border-color: #e5e5e5; border-radius: 4px 4px 4px 4px;"

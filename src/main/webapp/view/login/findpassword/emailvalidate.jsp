@@ -19,7 +19,9 @@
 <script type="text/javascript" src="<%=basePath%>/static/js/login/findpwd.js"></script>
 <!-- 不要删除 -->
 <script type="text/javascript" src="<%=basePath%>/static/js/common/common-path.js"></script>
+
 <title>Password Retrieve</title>
+
 <script type="text/javascript">
 $(document).ready(function(){
 	$("#timer_id").one("click", function(){
@@ -39,6 +41,7 @@ $(document).ready(function(){
 	   <div class="panel-heading text-center">Password Retrieve Processing
 	   </div>
 	   <!-- body -->
+
 	    <div class="panel-body">
 	   
 	    <div class="find_div">
@@ -51,6 +54,7 @@ $(document).ready(function(){
 	       	<div> 
 		       	<p class="account-info">For your account security, please complete identity verification.</p>   
 		       	<div class="emailValidate">Email Verification：</div> 
+
 		       	<div class="clearfix pass-input-container"> 
 			       	<label class="form-2-label">Email：</label> 
 			       	<div class="form-2-content line-32" id="userEmail"> ${sessionScope.user.email} </div> 

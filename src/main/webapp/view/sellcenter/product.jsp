@@ -34,10 +34,10 @@
        <div class="mainDiv">
           <div class='title'>产品定制</div>
           <div id='menuDiv'>
-            <span onclick="showBox('hs')">按HSCODE定制</span>
-            <span onclick="showBox('de')">按产品描述定制</span>
-            <span onclick="showBox('cy')">按国家定制</span>
-            <span onclick="showBox('nm')">按次数定制</span>
+            <span onclick="showBox('hs')">Subscribe By HSCODE</span>
+            <span onclick="showBox('de')">Subscribe By Product Discription</span>
+            <span onclick="showBox('cy')">Subscribe By Country</span>
+            <span onclick="showBox('nm')">Subscribe By Times</span>
           </div>
           <!-- 存放查询条件 -->
           <div class='conditionDiv'>
