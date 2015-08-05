@@ -723,6 +723,7 @@ function getRowData(id)
 		    $("#country").html(country+"数据");
 		    openDivArtDialog("More details", "detailmessageDIV", "detailmessageDIV",900,600,true);
      	},"json");
+	translation("english");
 }
 
 /**
