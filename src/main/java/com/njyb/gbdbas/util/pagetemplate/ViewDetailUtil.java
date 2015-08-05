@@ -96,15 +96,15 @@ public class ViewDetailUtil
 	//添加百度搜索前面标签部分
 	private static final String baidu_front = "&nbsp;&nbsp;<a href=\"http://www.baidu.com/s?ie=utf-8&wd=";
 	//添加百度搜索后面标签部分
-	private static final String baidu_behind = "&cl=3\" target=\"_blank\"><img title=\"在百度上查看更多的信息\" alt=\"在百度上查看更多的信息\" style=\"width: 20px;border: 0px;\" src=\"/gbdbas/static/img/datasearch/baidu_logo.png\" ></a>";
+	private static final String baidu_behind = "&cl=3\" target=\"_blank\"><img title=\"More details in Google\" alt=\"More details in Google\" style=\"width: 20px;border: 0px;\" src=\"/gbdbas/static/img/datasearch/google-g-logo-vector.png\" ></a>";
 	//添加客户信息前面标签部分
 	private static final String addcustomer_front = "&nbsp;&nbsp;<a href=\"#\" onclick=\"showCustomerName('";
 	//添加客户信息后面标签部分
-	private static final String addcustomer_behind  = "')\"><img title=\"点击添加客户信息\" alt=\"点击添加客户信息\" style=\"border: 0px;\" src=\"/gbdbas/static/img/datasearch/viewdetail/addcustomer.png\" ></a>";
+	private static final String addcustomer_behind  = "')\"><img title=\"Add Customer\" alt=\"Add Customer\" style=\"border: 0px;\" src=\"/gbdbas/static/img/datasearch/viewdetail/addcustomer.png\" ></a>";
 	//添加竞争对手信息前面标签部分
 	private static final String addcompany_front = "&nbsp;&nbsp;<a href=\"#\" onclick=\"showCompanyName('";
 	//添加竞争对手信息后面标签部分
-	private static final String addcompany_behind  = "')\"><img title=\"点击添加竞争对手\" alt=\"点击添加竞争对手\" style=\"border: 0px;\" src=\"/gbdbas/static/img/datasearch/viewdetail/addcompare.png\" ></a>";
+	private static final String addcompany_behind  = "')\"><img title=\"Add Competitor\" alt=\"Add Competitor\" style=\"border: 0px;\" src=\"/gbdbas/static/img/datasearch/viewdetail/addcompare.png\" ></a>";
 	
 	/**
 	 * 动态生成国家查看详情的页面

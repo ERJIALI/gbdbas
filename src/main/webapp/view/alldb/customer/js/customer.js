@@ -261,7 +261,7 @@ function loadMethod(data) {
 	// 查询个数
 	queryCusAndComCount($("#competorSpan"),$("#customerSpan"));
 	if (data.rows.length == 0) {
-		$.messager.alert("Prompt", "No customer data founded!", 'info');
+		$.messager.alert("Prompt", "No Customer record founded!", 'info');
 	} else {
 		flagPage = data.flag;
 		console.debug(flagPage);

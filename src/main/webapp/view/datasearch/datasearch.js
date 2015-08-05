@@ -707,7 +707,9 @@ function viewdetail(value, row, index) {
 	}
 	return '<a href = \'javascript:getRowData(\"' + id + '\");\' style=\"color: #1369c0\" onmouseover="this.style.textDecoration=\'underline\'" onmouseout="this.style.textDecoration=\'none\'">More details</a>';
 }
-
+function testMe(){
+	window.location.href="/gbdbas/";
+}
 /**
  * 生成查看详情对话框内容
  * @auther 罟皓
@@ -721,8 +723,15 @@ function getRowData(id)
 		    $("#showArea").html(htmlData);
 		    $("#id_hscode").html(hscode);
 		    $("#country").html(country+"数据");
+		    translation('english');
+		   // testMe();
 		    openDivArtDialog("More details", "detailmessageDIV", "detailmessageDIV",900,600,true);
+		   
+		//    var language=''english;
+			
      	},"json");
+	
+	
 }
 
 /**

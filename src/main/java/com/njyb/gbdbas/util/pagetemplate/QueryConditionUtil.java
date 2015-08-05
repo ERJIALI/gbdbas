@@ -73,12 +73,12 @@ public class QueryConditionUtil
     private static final String select_behind = "}''></select>";
     //进出口类型单选按钮1(进口)开始样式
     private static final String radio_import_front= "<input id=''import'' checked=''checked'' style = ''width:40px'' type=''radio'' name=''{";
-    //进出口类型单选按钮1(进口)结束样式
-    private static final String radio_import_behind= "}'' value=''I'' /><font class=''radiofieldname''>进口</font>&nbsp;";
+    //进出口类型单选按钮1(进口)结束样式 ---I have change the text of import and export, not know if it will change the other program.
+    private static final String radio_import_behind= "}'' value=''I'' /><font class=''radiofieldname''>Import</font>&nbsp;";
     //进出口类型单选按钮1(出口)开始样式
     private static final String radio_export_front= "<input id=''import'' style = ''width:40px'' type=''radio'' name=''{";
     //进出口类型单选按钮1(出口)结束样式
-    private static final String radio_export_behind= "}'' value=''E'' /><font class=''radiofieldname''>出口</font>";
+    private static final String radio_export_behind= "}'' value=''E'' /><font class=''radiofieldname''>Export</font>";
     //翻译的按钮固定在左下角文本框中
     //翻译的样式1
     private static final String div_translate_firstcows = "\n<div class='translatefirstcows'>";
