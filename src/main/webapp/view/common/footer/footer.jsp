@@ -14,7 +14,7 @@
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
 <meta name="renderer" content="webkit">
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
-<title>页面尾部</title>
+<title>footer of the page</title>
 <head>
 <link href="${root }/static/css/common/footer/footer.css" rel="stylesheet" type="text/css" />
 </head>

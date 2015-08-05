@@ -65,9 +65,7 @@
 			<div style="padding-top: 10px;background-color: #F5FAF9;width: 100%;height: 32px;text-align: left;">
 				<div style="width: 18%; height: 30px; border: 0px solid red;">
 					<div style="width: 27px; height: 30px;float: left;"><img src="${pageContext.request.contextPath }/static/img/alldb/buyer.png"/></div>
-
 					<div style="width: 150px; height: 30px;float: left; line-height: 30px;">
-
 						<b><font color="#1369c0" style="font-size:18px;padding-left: 5px;">My Customers</font></b>
 					</div>
 				</div>
@@ -76,9 +74,7 @@
 			 <div id="customerDg" style="height:30px;line-height:30px;display:none; font-size: 16px;font-family:Microsoft YaHei;background-color:#E7F1FB;">
 			   	<div style="width:100%; height: 30px;line-height: 26px;">
 					<a href="javascript:addCompetitor();" title="添加" class="btn_alldb_add"><span style="margin-left: 15px;">Add</span></a>
-
-					<a href="javascript:updateCompetitor();" title="修改" class="btn_alldb_eit"><span style="margin-left: 15px;">Refine</span></a>
-
+					<a href="javascript:updateCompetitor();" title="修改" class="btn_alldb_eit"><span style="margin-left: 15px;">Refise</span></a>
 					<a href="javascript:del();" title="删除" class="btn_alldb_remove"><span style="margin-left: 15px;">Delete</span></a>
 					<span style="float: right; margin-top: 5px;">
 						<input class="easyui-searchbox" id="queryCountry" style="width: 200px;">

@@ -37,11 +37,11 @@ public interface DataSearchConstantUtil {
 	//报表需要精度处理的字段
 	public final static String REPORT_FORMATPRECISION = "_report_formatPrecision";
 	//海关编码文本框描述
-	public final static String HSCODEDESC = "请单击右侧添加海关编码";
+	public final static String HSCODEDESC = "Click to add Hs Code";
 	//提单号文本框描述
-	public final static String BILLLADINGDESC = "请输入完整的提单号";
+	public final static String BILLLADINGDESC = "Please enter Bill Number";
 	//除了海关编码和提单号其他文本框描述
-	public final static String OTHERDESC = "请至少输入一个完整的单词";
+	public final static String OTHERDESC = "Please enter at least one word";
 	//翻译的图片按钮路径
 	public final static String TRANSBUTTON_PATH = "/gbdbas/static/img/datasearch/translate.png";
 	//添加海关编码按钮路径

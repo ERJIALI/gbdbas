@@ -115,6 +115,7 @@ public class DataSearchController {
 	public String generateQueryCondition(HttpServletRequest request,HttpServletResponse response,String country) throws Exception{
 		PrintWriter out = response.getWriter();
 		String countryName = InitCountryCENameUtil.queryCountryEnName(country);
+		String countryEnName=InitCountryCENameUtil.queryCountryEnglishName(country);	//get the correct english name
 		//将当前进入的国家英文名存放进session中
 		request.getSession().setAttribute("country",countryName);
 		//将当前进入的国家中文名存放进session中
@@ -122,7 +123,7 @@ public class DataSearchController {
 		// 获取map对象
 		Map map = conditionFieldModel.getConditionFieldMap();
 		//根据国家生成对应的jsp搜索条件
-		String htmlData = QueryConditionUtil.fmtHtml(countryName, map,country);
+		String htmlData = QueryConditionUtil.fmtHtml(countryName, map,countryEnName);
 		JSONObject json = new JSONObject();
 		json.put("htmlData", htmlData); 
 		out.write(json.toString());

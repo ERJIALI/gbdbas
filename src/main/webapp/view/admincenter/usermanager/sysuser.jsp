@@ -42,17 +42,17 @@
 		        <tr height="27px">  
 		          <td><span>QQ:</span></td><td><span id="qqS"></span></td> 
 		          <td><span>Real name:</span></td> <td><span id="userNameS"></span></td>
-		          <td><span>拥有子帐号的数量:</span></td><td><span id="sonAccountNumS"></span></td>
+		          <td><span>#of sub-accounts:</span></td><td><span id="sonAccountNumS"></span></td>
 		        </tr>
 		        <tr height="27px">
-		          <td><span>当前身份:</span></td><td> <span id="userDescS"></span></td>
-		          <td><span>开通子帐号总数:</span></td><td><span onclick="changeSpan()" id="sonAccountTotalS"></span><span hidden id="var1"><input type="text" id="var2" onblur="upSonNum()" size=5/></span></td>
-		      	  <td><span>允许开通子帐号:</span></td><td><span id="openServiceS"onclick="changeStatus('openService','openServiceS')"></span></td>
+		          <td><span>Current ID:</span></td><td> <span id="userDescS"></span></td>
+		          <td><span>Activate total sub-accounts:</span></td><td><span onclick="changeSpan()" id="sonAccountTotalS"></span><span hidden id="var1"><input type="text" id="var2" onblur="upSonNum()" size=5/></span></td>
+		      	  <td><span>Allowing to open new sub-accounts:</span></td><td><span id="openServiceS"onclick="changeStatus('openService','openServiceS')"></span></td>
 		        </tr>
 		        <tr height="27px">
-		          <td><span>是否激活:</span></td><td><span id="isActivatedS" onclick="changeStatus('isActivated','isActivatedS')"></span></td>
-		          <td><span>账号是否锁定:</span></td><td><span id="isLockedS" onclick="changeStatus('isLocked','isLockedS')"></span></td>
-		          <td><span>账号是否冻结:</span></td> <td><span id="isDisableS" onclick="changeStatus('isDisable','isDisableS')"></span></td>
+		          <td><span>To activate or not:</span></td><td><span id="isActivatedS" onclick="changeStatus('isActivated','isActivatedS')"></span></td>
+		          <td><span>To lock the account or not:</span></td><td><span id="isLockedS" onclick="changeStatus('isLocked','isLockedS')"></span></td>
+		          <td><span>To block the account or not:</span></td> <td><span id="isDisableS" onclick="changeStatus('isDisable','isDisableS')"></span></td>
 		        </tr>
 		      </table>
 		    </div>

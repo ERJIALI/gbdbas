@@ -9,9 +9,3 @@
 2015-07-14 16:21:36 [ qtp1030384622-28:631346 ] - [ INFO ] 进入方法/userLogin，当前的登录状态码为:1
 2015-07-14 16:27:09 [ Thread-1:964680 ] - [ INFO ] Closing WebApplicationContext for namespace 'spring-servlet': startup date [Tue Jul 14 16:11:14 EDT 2015]; parent: Root WebApplicationContext
 2015-07-14 16:27:09 [ Thread-1:964687 ] - [ INFO ] Closing Root WebApplicationContext: startup date [Tue Jul 14 16:11:04 EDT 2015]; root of context hierarchy
-2015-07-22 11:09:51 [ qtp983381524-20:40758 ] - [ INFO ] 进入方法/userLogin，当前的登录状态码为:2
-2015-07-22 11:10:01 [ qtp983381524-21:51408 ] - [ INFO ] 进入方法/userLogin，当前的登录状态码为:1
-2015-07-22 11:10:15 [ qtp983381524-22:65299 ] - [ INFO ] 进入数据检索业务逻辑方法...
-2015-07-22 11:10:39 [ qtp983381524-22:88539 ] - [ INFO ] 进入数据检索业务逻辑方法...
-2015-07-22 11:10:55 [ qtp983381524-20:104925 ] - [ INFO ] org.apache.jasper.JasperException: /view/newhomepage/login.jsp(2,56) PWC6188: The absolute uri: http://java.sun.com/jsf/html cannot be resolved in either web.xml or the jar files deployed with this application
-2015-07-22 11:11:00 [ qtp983381524-20:110427 ] - [ INFO ] org.apache.jasper.JasperException: javax.el.PropertyNotFoundException: The class 'com.njyb.gbdbase.model.admincenter.UserModel' does not have the property 'firstName'.

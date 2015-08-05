@@ -147,41 +147,38 @@ if(language == null || "".equals(language) || "pleaseSelect".equals(language))
         
       }
     function startTransaction(value){
-
-	var money=value;
-	
-	$.post("/gbdbas/saveMoneyAndCheckUser",{money:money},
-		function(data){
-			if(data=="1"){
-				$("#checkUserName").modal('show');
-				
-				
-				//	location.href="www.inforvellor.com/payment.jsp"
-			
-			
-			}else{
-			if(data=="0"){
-				
-				$("#loginDialog").modal('show');
-				//location.href="www.inforvellor.com/payment.jsp"
-					
-			}
-			
-			}
-		
-		
-		}
-	
-	
-	);
-
+  var money=value;
+  
+  $.post("/gbdbas/saveMoneyAndCheckUser",{money:money},
+    function(data){
+      if(data=="1"){
+        $("#checkUserName").modal('show');
+        
+        
+        //  location.href="www.inforvellor.com/payment.jsp"
+      
+      
+      }else{
+      if(data=="0"){
+        
+        $("#loginDialog").modal('show');
+        //location.href="www.inforvellor.com/payment.jsp"
+          
+      }
+      
+      }
+    
+    
+    }
+  
+  
+  );
   
   
   }
   
   
   function usersubmit(){
-
 //     var $btnmy=document.getElementById("signIn");
 //     $btnmy.value="loading..."
      //$(this).value="loading";
@@ -229,7 +226,6 @@ if(language == null || "".equals(language) || "pleaseSelect".equals(language))
        
 
   
-
 
 }
   
@@ -294,9 +290,7 @@ if(language == null || "".equals(language) || "pleaseSelect".equals(language))
            <c:if test="${sessionScope.user  eq null}">
            <li>
                
-
-				  <a class="btn btn-success" role="button" href="login.jsp" style="color:white; padding:15px; margin-right:10px;">Login</a>
-
+          <a class="btn btn-success" role="button" href="login.jsp" style="color:white; padding:15px; margin-right:10px;">Login</a>
                  
           
            
@@ -673,15 +667,13 @@ if(language == null || "".equals(language) || "pleaseSelect".equals(language))
     
     <div class="modal-content">
     <div class="modal-header">
-
-  	
-  		        <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
-       			 <h4 class="modal-title" id="gridSystemModalLabel"><font size="5">Please sign in:</font></h4>
-  	
-  	
-  	</div>
-  	<div class="modal-body">
-
+    
+              <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+             <h4 class="modal-title" id="gridSystemModalLabel"><font size="5">Please sign in:</font></h4>
+    
+    
+    </div>
+    <div class="modal-body">
       <form class="form-signin" onsubmit="return usersubmit()"  >
        
         <label for="inputUser" class="sr-only">Username</label>
@@ -702,10 +694,9 @@ if(language == null || "".equals(language) || "pleaseSelect".equals(language))
     </div>
     </div>
     </div>
-
- 		<a href="#passwordRetrive" class="padding-right:50px" role="button" data-toggle="modal" style="color:black">Forget Password</a>
-        
-
+    <div class="checkbox2">
+    <a href="#passwordRetrive" class="padding-right:50px" role="button" data-toggle="modal" style="color:black">Forget Password</a>
+    </div>    
         <button class="btn btn-lg btn-primary btn-block" data-loading-text="Loading..." id="signIn"  type="submit" >Sign in</button>
       </form>
     </div>

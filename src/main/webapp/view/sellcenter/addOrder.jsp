@@ -94,7 +94,7 @@
 		          </table>
 		       </div>
 		        <div style="width:400px;margin-left: 600px;padding-left: 200px;">
-		          <span class='tag'>应付金额：</span>
+		          <span class='tag'>Amount payable：</span>
 		           <span >
 		           <input type='text' id='sumMoney' name='sumMoney' readonly="readonly"  align="right" 
 		           style="border: none;background-color: #f8f8f8; font-size: 24px; color:red; width: 100px;"/>

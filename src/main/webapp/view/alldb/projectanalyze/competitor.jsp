@@ -18,7 +18,7 @@
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
 <meta name="renderer" content="webkit">
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
-<title>产品标签竞争对手信息</title>
+<title>Product tag/ competitor's information</title>
 <style type="text/css">
 .body_style {
 	font-family: "Microsoft Yahei", Heiti, arial, helvetica,

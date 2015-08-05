@@ -15,7 +15,7 @@
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
 <meta name="renderer" content="webkit">
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
-<title>页面头部</title>
+<title>heading of the page</title>
 <head>
 	<link href="${root }/static/css/common/head/head.css" rel="stylesheet" type="text/css" />
 	<script type="text/javascript"  src="${root }/view/common/head/head.js"></script>
@@ -68,12 +68,9 @@
 	           </li>
 	             
 	           <li class="menu_line"></li>
-
                <li class="nav-item no-subnav active" id="nav-item_2"><a onclick="clickMenuForword(6)" ><span class="primary-link" id="font_color6">Trading Info</span></a></li>
                <li class="menu_line"></li>
                <li class="nav-item no-subnav active" id="nav-item_3"><a onclick="clickMenuForword(7)" ><span class="primary-link">Clients/Rivals</span></a>
-
-
                	  <div class="subnav" id="subnav_3">                       
 	                     <div class="subnav-inner">
 		                     <ul>
@@ -91,7 +88,7 @@
                <li class="nav-item no-subnav active" id="nav-item_6"><a onclick="clickMenuForword(11)" ><span class="primary-link">All Library Download</span></a></li>
                <li class="menu_line"></li>
                  
-               <li class="nav-item no-subnav active" id="nav-item_7"><a onclick="clickMenuForword(12)" ><span class="primary-link" id="font_color7">产品定制</span></a></li>
+               <li class="nav-item no-subnav active" id="nav-item_7"><a onclick="clickMenuForword(12)" ><span class="primary-link" id="font_color7">Product customization</span></a></li>
                <li class="menu_line"></li>
                
                <li class="nav-item no-subnav active" id="nav-item_8"><a onclick="clickMenuForword(13)" ><span class="primary-link">Service Center</span></a></li>

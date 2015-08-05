@@ -129,7 +129,7 @@ function generateTab()
 function chooseCountry(country)
 {
 	datasearch.setCountry(country);
-	$("#c_country").val(country);
+	//$("#c_country").val(country);
 	art.dialog({id:'countrysel'}).close();
 	//清空选择字段中的id和名称
 	datasearch.setSelectFieldId("");

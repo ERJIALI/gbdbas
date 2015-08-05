@@ -122,7 +122,7 @@
 						<div id="resultFieldDiv" style="padding-top: 56px">
 						</div>
 						<div id="selectFieldDialog" style="display:none;z-index: 100;position: absolute;margin-top:-860px;border: 1px solid #D4D4D4;width:300px;height:auto;background-color: #FFFFFF;" >
-							<div style="padding-top: 10px;background-color: #F5FAF9;width: 300px;height: 30px;"><b><font color="#1369c0" style="font-size:16px;padding-left: 36px">请选择显示字段</font></b></div>
+							<div style="padding-top: 10px;background-color: #F5FAF9;width: 300px;height: 30px;"><b><font color="#1369c0" style="font-size:16px;padding-left: 36px">please select the shown letter</font></b></div>
 							<div id="selectFieldDiv" style="width:300px;font-size: 12px;">
 							</div>
 							<div id="selectFieldButton" style="padding:40px 0px 30px 60px ;z-index: 110;">

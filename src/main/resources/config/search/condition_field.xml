@@ -16,10 +16,11 @@
 				<!-- 阿根廷 -->
 				<!-- 阿根廷进口搜索条件字段-->
 				<entry key="argentina_import_conditionzhname" value="国家：,海关编码：,CIF价格：,重量：,产品描述：,日期：,FOB价格：,数量：,采购商：,原产国："></entry>
-				<entry key="argentina_import_conditionfieldid" value="country,hscode,cifstartprice/cifendprice,startweight/endweight,goodsdesc,startdate/enddate,fobstartprice/fobendprice,startquantity/endquantity,importer,origin_country"></entry>F
+				<entry key="argentina_import_conditionfieldid" value="country,hscode,cifstartprice/cifendprice,startweight/endweight,goodsdesc,startdate/enddate,fobstartprice/fobendprice,startquantity/endquantity,importer,origin_country"></entry>
 
 				<entry key="argentina_import_conditionenname" value="country：,Custom number：,CIF price：,weight：,Product Description：,Date：,FOB price：,Amount：,Buyer：,Origin country："></entry>
 
+				
 				<!-- 需要添加翻译的字段id -->
 				<entry key="argentina_import_trans" value="goodsdesc,importer,origin_country"></entry>
 				<!-- 需要添加文本框描述的字段id -->
@@ -267,7 +268,7 @@
 				<!-- 委内瑞拉进口搜索条件字段-->
 				<entry key="vnrl_import_conditionzhname" value="国家：,海关编码：,FOB价格：,重量：,产品描述：,进口商：,日期：,原产国：,起运港："></entry>
 				<entry key="vnrl_import_conditionfieldid" value="country,hscode,fobstartprice/fobendprice,startweight/endweight,goodsdesc,importer,startdate/enddate,origin_country,start_port"></entry>
-				<entry key="vnrl_import_import_conditionenname" value="country：,Custom number：,FOB price：,weight:,Product Description：,Importer:,Date:,Origin country：,Loadig port:"></entry>
+				<entry key="vnrl_import_conditionenname" value="country：,Custom number：,FOB price：,weight:,Product Description：,Importer:,Date:,Origin country：,Loadig port:"></entry>
 				<!-- 需要添加翻译的字段id -->
 				<entry key="vnrl_import_trans" value="goodsdesc,importer,start_port"></entry>
 				<!-- 需要添加文本框描述的字段id -->
@@ -360,7 +361,7 @@
 				<!-- 墨西哥进口下拉框显示字段 -->
 				<entry key="mexico_import_origin" value="origin"></entry>
 				<entry key="mexico_import_origin" value="CHINA~SPAIN~ITALY~JAPAN~UNITED STATES~GERMANY~PERU~UNITED KINGDOM~BELGIUM~SWEDEN~NETHERLANDS~KOREA, REPUBLIC OF~THAILAND~AUSTRIA~FRANCE~SINGAPORE~PHILIPPINES~SWITZERLAND~POLAND~TAIWAN, PROVINCE OF CHINA~CZECH REPUBLIC~CANADA~TURKEY~HONDURAS~ESLOVAQUIA~IRELAND~INDIA~JORDAN~INDONESIA~BRAZIL~NORWAY~COLOMBIA~VIET NAM~CROATIA~NOT DECLARED~DENMARK~MALAYSIA~HUNGARY~ESTONIA~UKRAINE~ICELAND~ARGENTINA~ECUADOR~REUNION~COSTA RICA~PORTUGAL~LIECHTENSTEIN~NICARAGUA~DOMINICAN REPUBLIC~SLOVENIA~QATAR~ROMANIA~AUSTRALIA~TUNISIA~CURAZAO~PAKISTAN~FINLAND~MADAGASCAR~PUERTO RICO~GUATEMALA~KENYA~CHILE~SERBIA~SRI LANKA~HONG KONG~SOUTH AFRICA~ISRAEL~NEW ZEALAND~PANAMA~VENEZUELA~GREECE~BARBADOS~CAMBODIA~LUXEMBOURG~SENEGAL~URUGUAY~BANGLADESH~SWAZILAND~OTROS PAISES NO DECLARADOS DE LA UE~CAMEROON~IRAN, ISLAMIC REPUBLIC OF~BULGARIA~BOSNIA AND HERZEGOVINA~EGYPT~UNITED ARAB EMIRATES~LITHUANIA~BERMUDA~BOLIVIA~GHANA~MACAO~GEORGIA~REPUBLICA ARABE SIRIA~LATVIA~LESOTHO~PARAGUAY~KOREA, DEMOCRATIC PEOPLE S REPUBLIC OF~YUGOSLAVIA~GAMBIA~MARTINIQUE~MALI~NIGERIA~EL SALVADOR~GIBRALTAR~RUSSIAN FEDERATION~ANTIGUA AND BARBUDA~ALBANIA~MYANMAR~CHRISTMAS ISLAND~MONACO~BRITISH INDIAN OCEAN TERRITORY~MOROCCO~BAHRAIN~MOLDOVA, REPUBLIC OF~MALTA~BELARUS~MACEDONIA, THE FORMER YUGOSLAV REPUBLIC~DOMINICA~BRUNEI DARUSSALAM~GUYANA~HAITI~TRINIDAD AND TOBAGO~NETHERLANDS ANTILLES~ZAMBIA~JAMAICA~NAMIBIA~SVALBARD AND JAN MAYEN~UGANDA~ARUBA~LEBANON~WALLIS AND FUTUNA~AFGHANISTAN~NEPAL~SAN MARINO~SAINT LUCIA~BAHAMAS~SAINT HELENA~MICRONESIA, FEDERATED STATES OF~C?′D IVOIRE~NEW CALEDONIA~SURINAME~CENTRAL AFRICAN REPUBLIC~UZBEKISTAN~GUINEA~SAUDI ARABIA~NIGER~BELIZE~PITCAIRN~NORTHERN MARIANA ISLANDS~FRENCH POLYNESIA~SOMALIA~MAURITANIA~TURKS AND CAICOS ISLANDS~CYPRUS~MONTSERRAT~ANDORRA~SAINT VINCENT AND THE GRENADINES~SAINT KITTS AND NEVIS~GRENADA~COCOS (KEELING) ISLANDS~CONGO, THE DEMOCRATIC REPUBLIC OF THE~TURKMENISTAN~MOZAMBIQUE~MAURITIUS~TANZANIA, UNITED REPUBLIC OF~CAPE VERDE~ANGUILA~KAZAKHSTAN~PANAMA CANAL ZONE~SAMOA~MALDIVES~VANUATU~MONGOLIA~VIRGIN ISLANDS, BRITISH~ARMENIA~CHANNEL ISLAND~CUBA~TADJIKISTAN~ALGERIA~GABON~TUVALU~BHUTAN~MALAWI~ISLAS VIRGENES (EU)~MARSHALL ISLANDS~ETHIOPIA~SIERRA LEONE~PALAU~NAURU~CAYMAN ISLANDS~ZIMBABWE~AZERBAIJAN~FIJI~SAO TOME AND PRINCIPE~SUDAN~DJIBOUTI~MONTENEGRO~RWANDA~PACIFIC ISLANDS, TRUST TERRITORY OF THE~BOTSWANA~LAO PEOPLE S DEMOCRATIC REPUBLIC~COMOROS~BURUNDI~LIBYAN ARAB JAMAHIRIYA~NEUTRAL ZONE IRAQ - SAUDI ARABIA~KYRGYZSTAN~IRAQ~YEMEN~ZAIRE~KIRIBATI~WESTERN SAHARA~HOLY SEE (VATICAN CITY STATE)~PAPUA NEW GUINEA~CHAD~ANGOLA~NIUE~ERITREA~KUWAIT~GUINEA-BISSAU~SOLOMON ISLANDS~ISLAS TOKELAU~BENIN~BURKINA FASO~SEYCHELLES~PAISES NO IDENTIFICADOS~OMAN~COOK ISLANDS~LIBERIA~HEARD ISLAND AND MCDONALD ISLANDS~FALKLAND ISLANDS (MALVINAS)~PALESTINIAN TERRITORY, OCCUPIED~GUADELOUPE~FRENCH GUIANA~TONGA~GUAM~EQUATORIAL GUINEA~TOGO~TIMOR-LESTE~FRENCH SOUTHERN AND ANTARCTIC TERRITORIE~NORFOLK ISLAND~SAINT PIERRE AND MIQUELON~CÃ´D IVOIRE ~CôD IVOIRE ~"></entry>
-				
+				<entry key="mexico_import_select" value="dest"></entry>
 				
 				<!-- 洪都拉斯进口搜索条件字段-->
 				<entry key="honduras_import_conditionzhname" value="国家：,海关编码：,CIF价格：,重量：,产品描述：,日期：,原产国："></entry>
@@ -555,9 +556,7 @@
 				<entry key="china_conditionzhname" value="国家：,海关编码：,CIF价格：,数量：,收发货地：,公司名称：,日期：,贸易类型：,报告口岸：,产销国："></entry>
 				<entry key="china_conditionfieldid" value="country,hscode,cifstartprice/cifendprice,startquantity/endquantity,product_place,companyname,startdate/enddate,trade_type,start_port,origin_country"></entry>
 
-
 				<entry key="china_conditionenname" value="country：,Custom number：,CIF price:,Amount:,Ship/Rec Location：,Company name:,Date:,Type:,Report port:,产销国："></entry>
-
 
 				<!-- 需要添加翻译的字段id -->
 				<entry key="china_trans" value=""></entry>

@@ -76,9 +76,7 @@
 			<div style="padding-top: 10px;background-color: #F5FAF9;width: 100%;height: 32px;text-align: left;">
 				<div style="width: 18%; height: 30px; border: 0px solid red;">
 					<div style="width: 27px; height: 30px;float: left;"><img src="${pageContext.request.contextPath }/static/img/alldb/buyer.png"/></div>
-
 					<div style="width: 150px; height: 30px;float: left; line-height: 30px;">
-
 						<b><font color="#1369c0" style="font-size:18px;padding-left: 5px;">My Competitors</font></b>
 					</div>
 				</div>

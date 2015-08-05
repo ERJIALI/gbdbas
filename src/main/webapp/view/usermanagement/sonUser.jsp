@@ -59,9 +59,7 @@
 		   	 	    <!-- 新增用户 -->
 					<a class="btn_alldb_add" onclick="addUser()" title="新增用户"  href="javascript:void(0);">&nbsp;&nbsp;Add</a>
 					<!-- 修改用户 -->
-
-					<a class="btn_alldb_eit"  onclick="updateUser()" title="编辑用户"  href="javascript:void(0);">&nbsp;&nbsp;Refine</a>
-
+					<a class="btn_alldb_eit"  onclick="updateUser()" title="编辑用户"  href="javascript:void(0);">&nbsp;&nbsp;Refise</a>
 					<!-- 删除用户 -->
 					<a class="btn_alldb_remove" onclick="deleteUsers()" title="删除用户" href="javascript:void(0);">&nbsp;&nbsp;Delete</a>
 					<div style="float: right;">

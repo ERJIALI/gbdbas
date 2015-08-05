@@ -100,17 +100,17 @@
 				<li id="tab1" name="tab1" onclick="alldb_setTab('tab',1,3);reportTypeClick('EXPORTERSUMMARY');"
 					style="background-image: url('/gbdbas/static/img/datasearch/tabout.png');" class="hover">
 					<span style="display: none;">EXPORTERSUMMARY</span>
-					<a id="tab_a1" style="color: #1369c0">供应商渠道分析报告</a>
+					<a id="tab_a1" style="color: #1369c0">Supplier's channel analysis report</a>
 				</li>
 				<li id="tab2" name="tab2" onclick="alldb_setTab('tab',2,3);reportTypeClick('GOODSSUM');"
 					style="background-image: url('/gbdbas/static/img/datasearch/tabbbefore.png');">
 					<span style="display: none;">GOODSSUM</span>
-					<a id="tab_a2">采购产品分析报告</a>
+					<a id="tab_a2">Product procurement analysis report</a>
 				</li>
 				<li id="tab3" name="tab3" onclick="alldb_setTab('tab',3,3);reportTypeClick('TRANSACTIONTREND');"
 					style="background-image: url('/gbdbas/static/img/datasearch/tabbbefore.png');">
 					<span style="display: none;">TRANSACTIONTREND</span>
-					<a id="tab_a3">采购趋势分析报告</a>
+					<a id="tab_a3">Procurement trend analysis report</a>
 				</li>
 			</ul>
 		</div>

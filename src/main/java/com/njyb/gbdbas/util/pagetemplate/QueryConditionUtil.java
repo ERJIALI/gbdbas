@@ -101,12 +101,12 @@ public class QueryConditionUtil
 	 * 动态生成各国家查询条件模板
 	 * @return String 查询条件对应的html代码
 	 * @param country 国家英文名
-	 * @param countryZhName 国家中文名
+	 * @param countryEnName 国家中文名---change to english name
 	 * @throws NoSuchMethodException 
 	 * @throws InvocationTargetException 
 	 * @throws IllegalAccessException 
 	 */
-	public static <T>String fmtHtml(String country,Map map,String countryZhName) 
+	public static <T>String fmtHtml(String country,Map map,String countryEnName) 
 	{
 		
 		//log.info("进入QueryConditionUtil类的fmtHtml()方法");
@@ -227,7 +227,7 @@ public class QueryConditionUtil
 						if("country".equals(fieldId[i]))
 						{	
 							buf.append(input_singleinput_value).append(index++).append(input_singleinput_onclick);
-							paramList.add(countryZhName);
+							paramList.add(countryEnName);
 						}else
 						{
 							buf.append(input_singleinput_behind);

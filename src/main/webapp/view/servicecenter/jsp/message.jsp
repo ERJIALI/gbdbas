@@ -9,11 +9,11 @@
 <script type="text/javascript" 	src="${pageContext.request.contextPath }/static/js/jquery/jquery-1.8.2.min.js"></script>
 <script type="text/javascript"	src="${pageContext.request.contextPath }/static/js/easyui/jquery.easyui.min.js"></script>
 <script type="text/javascript"	src="${pageContext.request.contextPath }/view/servicecenter/js/customercenter.js"></script>
-<title>用户留言信息</title>
+<title>User Message</title>
 </head>
 <body>
 	<div id="">
-		<a href="javascript:query()">点击查询</a>
+		<a href="javascript:query()">Click to search</a>
 	</div>
 	<div id="downCls" style="background-color: #126aaa;display: none;">
 		<a href="javascript:void(0)"	plain="true"	class="easyui-linkbutton" onclick="exportPDForEXCELPub()" onmouseover="this.style.background='#043f77';" onmouseout="this.style.background='#126aaa';">

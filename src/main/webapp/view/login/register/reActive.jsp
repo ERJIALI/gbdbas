@@ -8,7 +8,7 @@
 	String path = request.getContextPath();
 	String basePath = request.getScheme()+"://"+request.getServerName()+":"+request.getServerPort()+path+"/";
 %>
-<title>重新激活用户</title>
+<title>Re activate user</title>
 <link rel="stylesheet" type='text/css' href="<%=basePath%>static/css/easyui/easyui.css">
 <link rel="stylesheet" type='text/css' href="<%=basePath%>static/css/login/register.css">
 
@@ -32,7 +32,7 @@
    <div class="main"> 
         <div>Sorry. The email account has expired. Please reactivate</div>
         <div>
-           <button id="reActive" onclick="reActive()">再次发送邮件</button>
+           <button id="reActive" onclick="reActive()">Send email again</button>
         </div>
    </div>
   <!-- 激活邮箱 -->
